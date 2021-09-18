@@ -1,0 +1,210 @@
+= 中国各民族名称的罗马字母拼写法和代码
+
+Names of nationalities of China in romanization with codes
+
+== 1. 主题内容与适用范围
+
+本标准规定了我国各民族名称的罗马字母拼写法及其字母代码和数字代码。
+
+本标准适用于文献工作、拼音电报、国际通讯、出版、新闻报导、信息处理和交换等方面。
+
+== 2. 编制原则和结构
+
+* 2.1 中国各民族名称采用经国家认定的民族名称。
+* 2.2 阿拉伯数字代码顺序，根据我国目前各方面使用比较广泛的编排习惯排列。
+* 2.3 中国各民族名称字母代码用两个罗马字母，均大写。
+* 2.4 本标准有 3 个表，表 1 的第一栏按汉字笔数排列；表 2 的第一栏按罗马字母顺序排列；表 3 的第一栏按数字代码顺序排列。
+
+== 3. 管理
+
+* 3.1 凡中国各民族名称的变更、数量的增减，均由国家民族事务委员会予以审定，于当年通知国家技术监督局。
+* 3.2 本标准由全国文献工作标准化技术委员会管理，如有变动，由国家技术监督局印成附页发行全国，使用本标准的部门和单位，可以将附页插入标准文本需变动之处。
+
+== 4. 代码表
+
+中国各民族名称的罗马字母拼写法及其字母代码和数字代码列表如下：
+|===
+| 民族名称   | 罗马字母拼写法 | 字母代码 | 数字代码
+| 土家族     | Tujia          | TJ       | 15
+| 土族       | Tu             | TU       | 30
+| 门巴族     | Monba          | MB       | 54
+| 水族       | Sui            | SU       | 25
+| 毛南族     | Maonan         | MN       | 36
+| 乌孜别克族 | Uzbek          | UZ       | 43
+| 布依族     | Buyei          | BY       | 09
+| 布朗族     | Blang          | BL       | 34
+| 东乡族     | Dongxiang      | DX       | 26
+| 仡佬族     | Gelao          | GL       | 37
+| 仫佬族     | Mulao          | ML       | 32
+| 白族       | Bai            | BA       | 14
+| 汉族       | Han            | HA       | 01
+| 达斡尔族   | Daur           | DU       | 31
+| 回族       | Hui            | HU       | 03
+| 佤族       | Va             | VA       | 21
+| 壮族       | Zhuang         | ZH       | 08
+| 羌族       | Qiang          | QI       | 33
+| 阿昌族     | Achang         | AC       | 39
+| 纳西族     | Naxi           | NX       | 27
+| 拉祜族     | Lahu           | LH       | 24
+| 苗族       | Miao           | MH       | 06
+| 侗族       | Dong           | DO       | 12
+| 京族       | Gin            | GI       | 49
+| 柯尔克孜族 | Kirgiz         | KG       | 29
+| 哈尼族     | Hani           | HN       | 16
+| 哈萨克族   | Kazak          | KZ       | 17
+| 保安族     | Bonan          | BN       | 47
+| 俄罗斯族   | Russ           | RS       | 44
+| 独龙族     | Derung         | DR       | 51
+| 怒族       | Nu             | NU       | 42
+| 珞巴族     | Lhoba          | LB       | 55
+| 高山族     | Gaoshan        | GS       | 23
+| 基诺族     | Jino           | JN       | 56
+| 鄂伦春族   | Oroqen         | OR       | 52
+| 鄂温克族   | Ewenki         | EW       | 45
+| 维吾尔族   | Uygur          | UG       | 05
+| 塔吉克族   | Tajik          | TA       | 41
+| 塔塔尔族   | Tatar          | TT       | 50
+| 朝鲜族 footnote:朝鲜族[朝鲜族的罗马字母拼写法，对外使用时为 Korean。]    | Chosen         | CS       | 10
+| 景颇族     | Jingpo         | JP       | 28
+| 傣族       | Dai            | DA       | 18
+| 傈僳族     | Lisu           | LS       | 20
+| 畲族       | She            | SH       | 22
+| 普米族     | Pumi           | PM       | 40
+| 裕固族     | Yugur          | YG       | 48
+| 蒙古族     | Mongol         | MG       | 02
+| 锡伯族     | Xibe           | XB       | 38
+| 满族       | Man            | MA       | 11
+| 瑶族       | Yao            | YA       | 13
+| 赫哲族     | HeZhen         | HZ       | 53
+| 撒拉族     | Salar          | SL       | 35
+| 德昂族     | Deang          | DE       | 46
+| 黎族       | Li             | LI       | 19
+| 藏族 footnote:藏族[藏族的罗马字母拼写法，对外使用时为 Tibetan。]      | Zang           | ZA       | 04
+| 彝族       | Yi             | YI       | 07
+|===
+
+|===
+| 罗马字母拼写法 | 字母代码 | 民族名称   | 数字代码
+| Achang         | AC       | 阿昌族     | 39
+| Bai            | BA       | 白族       | 14
+| Blang          | BL       | 布朗族     | 34
+| Bonan          | BN       | 保安族     | 47
+| Buyei          | BY       | 布依族     | 09
+| Chosen         | CS       | 朝鲜族 footnote:朝鲜族[] | 10
+| Dai            | DA       | 傣族       | 18
+| Daur           | DU       | 达斡尔族   | 31
+| Deang          | DE       | 德昂族     | 46
+| Derung         | DR       | 独龙族     | 51
+| Dong           | DO       | 侗族       | 12
+| Dongxiang      | DX       | 东乡族     | 26
+| Ewenki         | EW       | 鄂温克族   | 45
+| Gaoshan        | GS       | 高山族     | 23
+| Gelao          | GL       | 仡佬族     | 37
+| Gin            | GI       | 京族       | 49
+| Han            | HA       | 汉族       | 01
+| Hani           | HN       | 哈尼族     | 16
+| HeZhen         | HZ       | 赫哲族     | 53
+| Hui            | HU       | 回族       | 03
+| Jingpo         | JP       | 景颇族     | 28
+| Jino           | JN       | 基诺族     | 56
+| Kazak          | KZ       | 哈萨克族   | 17
+| Kirgiz         | KG       | 柯尔克孜族 | 29
+| Lahu           | LH       | 拉祜族     | 24
+| Lhoba          | LB       | 珞巴族     | 55
+| Li             | LI       | 黎族       | 19
+| Lisu           | LS       | 傈僳族     | 20
+| Man            | MA       | 满族       | 11
+| Maonan         | MN       | 毛南族     | 36
+| Miao           | MH       | 苗族       | 06
+| Monba          | MB       | 门巴族     | 54
+| Mongol         | MG       | 蒙古族     | 02
+| Mulao          | ML       | 仫佬族     | 32
+| Naxi           | NX       | 纳西族     | 27
+| Nu             | NU       | 怒族       | 42
+| Oroqen         | OR       | 鄂伦春族   | 52
+| Pumi           | PM       | 普米族     | 40
+| Qiang          | QI       | 羌族       | 33
+| Russ           | RS       | 俄罗斯族   | 44
+| Salar          | SL       | 撒拉族     | 35
+| She            | SH       | 畲族       | 22
+| Sui            | SU       | 水族       | 25
+| Tajik          | TA       | 塔吉克族   | 41
+| Tatar          | TT       | 塔塔尔族   | 50
+| Tu             | TU       | 土族       | 30
+| Tujia          | TJ       | 土家族     | 15
+| Uygur          | UG       | 维吾尔族   | 05
+| Uzbek          | UZ       | 乌孜别克族 | 43
+| Va             | VA       | 佤族       | 21
+| Xibe           | XB       | 锡伯族     | 38
+| Yao            | YA       | 瑶族       | 13
+| Yi             | YI       | 彝族       | 07
+| Yugur          | YG       | 裕固族     | 48
+| Zang           | ZA       | 藏族 footnote:藏族[] | 04
+| Zhuang         | ZH       | 壮族       | 08
+|===
+
+|===
+| 数字代码 | 民族名称   | 罗马字母拼写法 | 字母代码
+| 01       | 汉族       | Han            | HA
+| 02       | 蒙古族     | Mongol         | MG
+| 03       | 回族       | Hui            | HU
+| 04       | 藏族 footnote:藏族[] | Zang           | ZA
+| 05       | 维吾尔族   | Uygur          | UG
+| 06       | 苗族       | Miao           | MH
+| 07       | 彝族       | Yi             | YI
+| 08       | 壮族       | Zhuang         | ZH
+| 09       | 布依族     | Buyei          | BY
+| 10       | 朝鲜族 footnote:朝鲜族[] | Chosen         | CS
+| 11       | 满族       | Man            | MA
+| 12       | 侗族       | Dong           | DO
+| 13       | 瑶族       | Yao            | YA
+| 14       | 白族       | Bai            | BA
+| 15       | 土家族     | Tujia          | TJ
+| 16       | 哈尼族     | Hani           | HN
+| 17       | 哈萨克族   | Kazak          | KZ
+| 18       | 傣族       | Dai            | DA
+| 19       | 黎族       | Li             | LI
+| 20       | 傈僳族     | Lisu           | LS
+| 21       | 佤族       | Va             | VA
+| 22       | 畲族       | She            | SH
+| 23       | 高山族     | Gaoshan        | GS
+| 24       | 拉祜族     | Lahu           | LH
+| 25       | 水族       | Sui            | SU
+| 26       | 东乡族     | Dongxiang      | DX
+| 27       | 纳西族     | Naxi           | NX
+| 28       | 景颇族     | Jingpo         | JP
+| 29       | 柯尔克孜族 | Kirgiz         | KG
+| 30       | 土族       | Tu             | TU
+| 31       | 达斡尔族   | Daur           | DU
+| 32       | 仫佬族     | Mulao          | ML
+| 33       | 羌族       | Qiang          | QI
+| 34       | 布朗族     | Blang          | BL
+| 35       | 撒拉族     | Salar          | SL
+| 36       | 毛南族     | Maonan         | MN
+| 37       | 仡佬族     | Gelao          | GL
+| 38       | 锡伯族     | Xibe           | XB
+| 39       | 阿昌族     | Achang         | AC
+| 40       | 普米族     | Pumi           | PM
+| 41       | 塔吉克族   | Tajik          | TA
+| 42       | 怒族       | Nu             | NU
+| 43       | 乌孜别克族 | Uzbek          | UZ
+| 44       | 俄罗斯族   | Russ           | RS
+| 45       | 鄂温克族   | Ewenki         | EW
+| 46       | 德昂族     | Deang          | DE
+| 47       | 保安族     | Bonan          | BN
+| 48       | 裕固族     | Yugur          | YG
+| 49       | 京族       | Gin            | GI
+| 50       | 塔塔尔族   | Tatar          | TT
+| 51       | 独龙族     | Derung         | DR
+| 52       | 鄂伦春族   | Oroqen         | OR
+| 53       | 赫哲族     | HeZhen         | HZ
+| 54       | 门巴族     | Monba          | MB
+| 55       | 珞巴族     | Lhoba          | LB
+| 56       | 基诺族     | Jino           | JN
+|===
+
+== 附加说明：
+
+本标准由全国文献工作标准化技术委员会提出。
+
+本标准由中国社会科学院民族研究所负责修订。

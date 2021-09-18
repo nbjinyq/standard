@@ -1,0 +1,1906 @@
+= 中国及世界主要海运贸易港口代码  
+
+Codes for China and world main shipping trade ports
+
+== 1. 范围
+
+本标准规定了中国及世界主要海运贸易港口代码的编码原则、代码结构和代码。
+
+本标准适用于国际贸易活动中涉及的数据交换和信息处理。
+
+== 2. 规范性引用文件
+
+下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。
+
+* GB/T 2659 世界各国和地区名称代码
+* GB/T 15515 中华人民共和国口岸及相关地点代码
+* UN/CEFACT 建议书 16 号 联合国口岸及相关地点代码（UN/LOCODE-2013.2）
+
+== 3. 编制原则
+
+=== 3.1 港口收录原则
+
+本标准依据下列基本原则对中国及世界范围内的主要港口进行收录：
+
+* 开展国际贸易活动的我国港口以及与我国有贸易往来的外国港口全面收录；
+* 国外以商业贸易活动为主要功能的港口尽可能收录，其中：海运较发达、港口较多的国家依据港口的吞吐量及泊靠能力适量收录其主要港口，海运欠发达或岛屿小国则保证每个国家至少收录一个港口；
+* 国际集装箱船能够直接通达的重要河港、湖港也收录在内；
+* 中国的大型港口的重要港区，也在本标准中有所收录。
+
+=== 3.2 港口排列原则
+
+港口按下列原则进行排列：
+
+* 港口列表以国家或地区为单元，按亚洲、欧洲、非洲、美洲、大洋洲的地理分布进行排列。
+* 中国港口按自北向南顺序排列，港区排列在其所归属的港口之后；中国台湾、中国香港和中国澳门的港口另行排列。
+* 其他国家或地区的港口按英文名称字母顺序排列。
+
+=== 3.3 代码编制原则
+
+港口代码编制原则如下：
+
+* 与现行国家标准保持一致，代码的前两位均引用 GB/T 2659 中表示世界各国和地区名称的两位字母代码，部分我国港口直接引用 GB/T 15514 的已有代码；
+* 与《联合国口岸及相关地点代码》（UN/LOCODE-2013.2）保持一致，从 UN/LOCODE 中选取代码。
+
+== 4. 代码和代码表结构
+
+=== 4.1 代码结构
+
+中国及世界主要海运贸易港口代码采用 5 位字母代码，前 2 位字母采用 GB/T 2659 的 2 位 字母代码，表示港口所在的国家或地区，后3位字母对应于港口名称的英文拼写。代码的结构如下：  
+
+....
+XX XXX
++- -+-
+|   +--- 3 位字母，对应于港口名称
++------- 2 位字母，表示国家或地区
+....
+
+=== 4.2 代码表结构
+
+中国及世界主要海运贸易港口代码表由中文名称、英文名称、代码和备注四栏组成。
+- 中文名称栏列出中国港口的正式名称或国外港口的规范译名。
+- 英文名称栏列出各港口的英文名称拼写形式，同一个港口具有不同名称时用括号加以表示；中国港口的英文名称采用 GB/T 15514 中的罗马字母拼写。
+- 代码栏列出的代码与 GB/T 2659 和 UN/LOCODE 保持一致。
+- 备注栏用于补充备注性信息。
+
+== 5. 代码表
+
+中国及世界主要海运贸易港口代码表见表1。
+
+.中国及世界主要海运贸易港口代码表
+|===
+| 中文名称                           | 英文名称                               | 代码  | 备注
+4+| 亚洲
+| *中国*                             | *CHINA*                                | *CN*  |
+| 丹东港                             | Dandonggang                            | CNDDG |
+| 大连港                             | Daliangang                             | CNDAG |
+| &nbsp;&nbsp;&nbsp;大连新港         | Dalianxinggang                         | CNDXG | 大连港港区之一
+| 营口港                             | Yingkougang                            | CNYIK |
+| 锦州港                             | Jinzhougang                            | CNJNZ |
+| 葫芦岛港                           | Huludaogang                            | CNHUD |
+| 秦皇岛港                           | Qinhuangdaogang                        | CHSHP |
+| 唐山港                             | Tangshangang                           | CNTGS |
+| &nbsp;&nbsp;&nbsp;京唐港           | Jingtanggang                           | CHJTG | 唐山港港区之一
+| &nbsp;&nbsp;&nbsp;曹妃甸港         | Caofeidiangang                         | CNCFD | 唐山港港区之一
+| 天津港                             | Tianjingang                            | CNTNJ |
+| &nbsp;&nbsp;&nbsp;天津新港         | Tianjinxingang                         | CNTXG | 天津港港区之一
+| 黄骅港                             | Huanghuagang                           | CNHUH |
+| 东营港                             | Dongyinggang                           | CNDYN |
+| 莱州港                             | Laizhougang                            | CNLZO |
+| 龙口港                             | Longkougang                            | CNLKU |
+| 蓬莱港                             | Penglaigang                            | CNPLI |
+| 烟台港                             | Yantaigang                             | CNYTG |
+| 威海港                             | Weihaigang                             | CNWEG |
+| 石岛港                             | Shidaogang                             | CNSHD |
+| 青岛港                             | Qingdaogang                            | CNQDG |
+| &nbsp;&nbsp;&nbsp;黄岛港           | Huangdaogang                           | CNHDO | 青岛港港区之一
+| 日照港                             | Rizhaogang                             | CNRZH |
+| &nbsp;&nbsp;&nbsp;岚山港           | Lanshangang                            | CNLSN | 日照港港区之一
+| 连云港                             | Lianyungang                            | CNLYG |
+| 大丰港                             | Dafenggang                             | CNDFG |
+| 洋口港                             | Yangkougang                            | CNYKG |
+| 重庆港                             | Chongqinggang                          | CNCHQ | 河港
+| 武汉港                             | Wuhangang                              | CNWHG | 河港
+| 黄石港                             | Huangshigang                           | CNHSI | 河港
+| 九江港                             | Jiujianggang                           | CNJIU | 河港
+| 安庆港                             | Anqinggang                             | CNAQG | 河港
+| 芜湖港                             | Wuhugang                               | CNWHI | 河港
+| 马鞍山港                           | Ma'anshan                              | CNMAA | 河港
+| &nbsp;&nbsp;&nbsp;郑蒲港           | Zhengpugang                            | CNZPG | 马鞍山港港区之一
+| 南京港                             | Nanjinggang                            | CNNJG | 河港
+| 扬州港                             | Yangzhougang                           | CNYZH | 河港
+| 镇江港                             | Zhenjianggang                          | CNZHE | 河港
+| 泰州港                             | Taizhougang                            | CNTZU | 河港
+| &nbsp;&nbsp;&nbsp;高港             | Gaogang                                | CNGAO | 泰州港港区之一
+| 常州港                             | Changzhougang                          | CNCZX | 河港
+| 江阴港                             | Jiangyingang                           | CNJIA | 河港
+| 苏州港                             | Suzhougang                             | CNSZG | 河港
+| &nbsp;&nbsp;&nbsp;张家港           | Zhangjianggang                         | CNZJG | 苏州港港区之一
+| &nbsp;&nbsp;&nbsp;常熟港           | Changshugang                           | CNCGS | 苏州港港区之一
+| &nbsp;&nbsp;&nbsp;太仓港           | Taicanggang                            | CNTAC | 苏州港港区之一
+| 南通港                             | Nantonggang                            | CNNTG | 河港
+| 如皋港                             | Rugaogang                              | CNRUG | 河港
+| 启东港                             | Qidonggang                             | CNQID | 河港
+| 上海港                             | Shanghaigang                           | CNSHG |
+| &nbsp;&nbsp;&nbsp;外高桥港         | Waigaoqiaogang                         | CNWGQ | 上海港港区之一
+| &nbsp;&nbsp;&nbsp;吴淞港           | Wusonggang                             | CNWUG | 上海港港区之一
+| &nbsp;&nbsp;&nbsp;宝山港           | Baoshangang                            | CNBSD | 上海港港区之一
+| &nbsp;&nbsp;&nbsp;洋山港           | Yangshangang                           | CNYSA | 上海港港区之一
+| 嘉兴港                             | Jiaxinggang                            | CNJAX |
+| &nbsp;&nbsp;&nbsp;乍浦港           | Zhapugang                              | CNZPU | 嘉兴港港区之一
+| 宁波港                             | Ningbogang                             | CNNBG |
+| &nbsp;&nbsp;&nbsp;北仑港           | Beilungang                             | CNBLG | 宁波港港区之一
+| &nbsp;&nbsp;&nbsp;镇海港           | Zhenhaigang                            | CNZHI | 宁波港港区之一
+| &nbsp;&nbsp;&nbsp;梅山港           | Meishangang                            | CNMSG | 宁波港港区之一
+| &nbsp;&nbsp;&nbsp;大榭港           | Daxiegang                              | CNDAX | 宁波港港区之一
+| &nbsp;&nbsp;&nbsp;穿山港           | Chuanshangang                          | CNCSG | 宁波港港区之一
+| &nbsp;&nbsp;&nbsp;宁海港           | Ninghaigang                            | CNNIH | 宁波港港区之一
+| &nbsp;&nbsp;&nbsp;象山港           | Xiangshangang                          | CNXIS | 宁波港港区之一
+| 舟山港                             | Zhoushangang                           | CNZOS |
+| &nbsp;&nbsp;&nbsp;普陀港           | Putuogang                              | CNPTG | 舟山港港区之一
+| 台州港                             | Taizhougang                            | CNTAZ |
+| &nbsp;&nbsp;&nbsp;海门港           | Haimenggang                            | CNHME | 台州港港区之一
+| &nbsp;&nbsp;&nbsp;大麦屿           | Damaiyu                                | CNDMY | 台州港港区之一
+| &nbsp;&nbsp;&nbsp;温岭港           | Wenlinggang                            | CNWLG | 台州港港区之一
+| 温州港                             | Wenzhougang                            | CNWZO |
+| 宁德港                             | Ningdegang                             | CNNDS |
+| &nbsp;&nbsp;&nbsp;城澳港           | Chang'aogang                           | CNCHE | 宁德港港区之一
+| 福州港                             | Fuzhougang                             | CNFZG |
+| &nbsp;&nbsp;&nbsp;马尾港           | Maweigang                              | CNMAW | 福州港港区之一
+| &nbsp;&nbsp;&nbsp;松下港           | Songxiagang                            | CNSON | 福州港港区之一
+| 湄洲湾港                           | Meizhouwangang                         | CNMZW | 又名莆田港
+| &nbsp;&nbsp;&nbsp;秀屿港           | Xiuyugang                              | CNXYG | 湄洲湾港港区之一
+| 泉州港                             | Quanzhougang                           | CNQZJ |
+| 厦门港                             | Xiamengang                             | CNXMG |
+| 漳州港                             | Zhangzhougang                          | CNZZU |
+| &nbsp;&nbsp;&nbsp;东山港           | Dongshangang                           | CNDSN | 漳州港港区之一
+| 潮州港                             | Chaozhougang                           | CNCOZ |
+| 汕头港                             | Shantougang                            | CNSTG |
+| &nbsp;&nbsp;&nbsp;广澳港           | Guang'aogang                           | CNGNA | 汕头港港区之一
+| 潮阳港                             | Chaoyanggang                           | CNCHY |
+| 汕尾港                             | Shanweigang                            | CNSWE |
+| 惠州港                             | Huizhougang                            | CNHUI |
+| 深圳港                             | Shenzhengang                           | CNSZG |
+| &nbsp;&nbsp;&nbsp;盐田港           | Yantiangang                            | CNYTN | 深圳港港区之一
+| &nbsp;&nbsp;&nbsp;蛇口港           | Shekougang                             | CNSHK | 深圳港港区之一
+| &nbsp;&nbsp;&nbsp;赤湾港           | Chiwangang                             | CNCWN | 深圳港港区之一
+| &nbsp;&nbsp;&nbsp;妈湾港           | Mawangang                              | CNMWN | 深圳港港区之一
+| &nbsp;&nbsp;&nbsp;东角头港         | Dongjiaotougang                        | CNDJT | 深圳港港区之一
+| 东莞港                             | Dongguangang                           | CNDGG |
+| &nbsp;&nbsp;&nbsp;虎门港           | Humengang                              | CNHMN | 东莞港港区之一
+| 广州港                             | Guangzhougang                          | CNGZG |
+| &nbsp;&nbsp;&nbsp;黄埔港           | Huangpugang                            | CNHUA | 广州港港区之一
+| &nbsp;&nbsp;&nbsp;南沙港           | Nanshagang                             | CNNSA | 广州港港区之一
+| 中山港                             | Zhongshangang                          | CNZSN |
+| 珠海港                             | Zhuhaigang                             | CNZUH |
+| &nbsp;&nbsp;&nbsp;九州港           | Jiuzhougang                            | CNJZU | 珠海港港区之一
+| &nbsp;&nbsp;&nbsp;斗门港           | Doumengang                             | CNDOU | 珠海港港区之一
+| 江门港                             | Jiangmengang                           | CNJMN |
+| 广海港                             | Guanghaigang                           | CNGHI | 位于广东省台山市
+| 阳江港                             | Yangjianggang                          | CNYJI |
+| &nbsp;&nbsp;&nbsp;北津港           | Beijingang                             | CNBJN | 阳江港港区之一
+| 茂名港                             | Maominggang                            | CNMMI |
+| 湛江港                             | Zhanjianggang                          | CNZNG |
+| 北海港                             | Beihaigang                             | CNBIH |
+| 石头埠港                           | Shitoubugang                           | CNSTB | 位于广西北海市铁山港区
+| 钦州港                             | Qinzhougang                            | CNQZH |
+| 防城港                             | Fangchenggang                          | CNFAN |
+| 企沙港                             | Qishagang                              | CNQSA | 位于广西防城港市企沙镇
+| 江山港                             | Jiangshangang                          | CNJIS | 位于广西防城港市江山乡
+| 海口港                             | Haikougang                             | CNHIG |
+| &nbsp;&nbsp;&nbsp;海口新港         | Haikouxingang                          | CNHXG | 海口港港区之一
+| 洋浦港                             | Yangpugang                             | CNYPG | 位于海南省儋州市
+| 八所港                             | Basuogang                              | CNBSP | 位于海南省东方市
+| 三亚港                             | Sanyagang                              | CNSYA |
+| &nbsp;&nbsp;&nbsp;榆林港           | Yulingang                              | CNYUL | 三亚港港区之一
+| 清澜港                             | Qinlangang                             | CNQLN | 位于海南省文昌市
+| *中国香港*                         | *HONG KONG*                            | *HK* |
+| 香港                               | Hong Kong                              | HKHKG |
+| *中国澳门*                         | *MACAO*                                | *MO*  |
+| 澳门                               | Macao                                  | MOMFM |
+| *中国台湾省*                       | *TAIWAN, CHINA*                        | *TW*  |
+| 台北                               | Taipei                                 | TWTPE |
+| 基隆                               | Keelung (Chilung)                      | TWKEL |
+| 花莲                               | Hualien                                | TWHUN |
+| 台中                               | Taichung                               | TWTXG |
+| 台南                               | Tainan                                 | TWTNN |
+| 高雄                               | Kaohsiung                              | TWKHH |
+| 苏澳                               | Suao                                   | TWSUO |
+|                                    |                                        |       |
+| *朝鲜*                             | *KOREA*                                | *KP*  |
+| 清津                               | Chongjin                               | KPCHO |
+| 海州                               | Haeju                                  | KPHAE |
+| 兴南                               | Hungnam                                | KPHGM |
+| 南浦                               | Nampo                                  | KPNAM |
+| 新浦                               | Sinpo                                  | KPSIN |
+| 元山                               | Wonsan                                 | KPWON |
+|                                    |                                        |       |
+| *韩国*                             | *REPUBLIC OF KOREA*                    | *KR*  |
+| 釜山                               | Busan                                  | KRPUS |
+| 光阳                               | Gwangyang (Kwangyang)                  | KRKAN |
+| 仁川                               | Incheon (Inchon)                       | KRICH |
+| 群山                               | Gunsan (Kunsan)                        | KRKUV |
+| 马山                               | Masan                                  | KRMAS |
+| 木浦                               | Kokpo                                  | KRMOK |
+| 墨湖                               | Mukho                                  | KRMUK |
+| 浦项                               | Pohang                                 | KRKPO |
+| 平泽                               | Pyeongtaek                             | KRPTK |
+| 蔚山                               | Ulsan                                  | KRUSN |
+| 丽水                               | Yeosu (Yosu)                           | KRYOS |
+|                                    |                                        |       |
+| *日本*                             | *JAPAN*                                | *JP*  |
+| 秋田                               | Akita                                  | JPAXT |
+| 千叶                               | Chiba                                  | JPCHB |
+| 福冈                               | Fukuoka                                | JPFUK |
+| 福山                               | Fukuyama                               | JPFKY |
+| 八户                               | Hachinohe                              | JPHHE |
+| 博多                               | Hakata                                 | JPHKT |
+| 函馆                               | Hakodate                               | JPHKD |
+| 滨田                               | Hamada                                 | JPHMD |
+| 姬路                               | Himeji                                 | JPHIM |
+| 广岛                               | Hiroshima                              | JPHIJ |
+| 日立                               | Hitachi                                | JPHTC |
+| 细岛                               | Hososhima                              | JPHSM |
+| 岩国                               | Iwakuni                                | JPIWK |
+| 鹿儿岛                             | Kagoshima                              | JPKOJ |
+| 金泽                               | Kanazawa                               | JPKNZ |
+| 川崎                               | Kawasaki                               | JPKWS |
+| 木更津                             | Kisarazu                               | JPKZU |
+| 北九州                             | Kitakyushu                             | JPKKJ |
+| 神户                               | Kobe                                   | JPUKB |
+| 钏路                               | Kushiro                                | JPKUH |
+| 门司                               | Moji                                   | JPMOJ |
+| 室兰                               | Muroran                                | JPMUR |
+| 长崎                               | Nagasaki                               | JPNGS |
+| 名古屋                             | Nagoya                                 | JPNGO |
+| 那霸                               | Naha                                   | JPNAH |
+| 新泻                               | Niigata                                | JPKIJ |
+| 新泻东                             | Niigatahigashi                         | JPNIH |
+| 大分                               | Oita                                   | JPOIT |
+| 小名滨                             | Onahama                                | JPONA |
+| 大阪                               | Osaka                                  | JPOSA |
+| 小樽                               | Otaru                                  | JPOTR |
+| 留萌                               | Rumoi                                  | JPRMI |
+| 堺港                               | Sakai                                  | JPSAK |
+| 佐世保                             | Sasebo                                 | JPSSB |
+| 仙台                               | Sendai                                 | JPSDJ |
+| 清水                               | Shimizu                                | JPSMZ |
+| 下关                               | Shimonoseki                            | JPSHS |
+| 高松                               | Takamatsu                              | JPTAK |
+| 德山                               | Tokuyama                               | JPTKY |
+| 东京                               | Tokyo                                  | JPTYO |
+| 苫小牧                             | Tomakomai                              | JPTMK |
+| 敦贺                               | Tsuruga                                | JPTRG |
+| 宇部                               | Ube                                    | JPUBJ |
+| 和歌山                             | Wakayama                               | JPWAK |
+| 四日市                             | Yokkaichi                              | JPYKK |
+| 横滨                               | Yokohama                               | JPYOK |
+| 横须贺                             | Yokosuka                               | JPYOS |
+| *菲律宾*                           | *PHILIPPINES*                          | *PH*  |
+| 阿帕里                             | Aparri                                 | PHAPR |
+| 八打雁                             | Batangas                               | PHBTG |
+| 卡加延-德奥罗                      | Cagayan de Oro                         | PHCGY |
+| 宿务                               | Cebu                                   | PHCEB |
+| 达沃                               | Davao                                  | PHDVO |
+| 杜马格特                           | Dumaguete                              | PHDGT |
+| 桑托斯将军城                       | General Santos                         | PHGES |
+| 伊利甘                             | Iligan                                 | PHIGN |
+| 伊洛伊洛                           | Iloilo                                 | PHILO | 又译“恰朗”
+| 黎牙实比                           | Legaspi                                | PHLGP |
+| 林加延                             | Lingayen                               | PHLIN |
+| 马尼拉                             | Manila                                 | PHMNL |
+| 马里韦莱斯                         | Mariveles                              | PHMVS |
+| 普林塞萨港                         | Puerto Princesa                        | PHPPS |
+| 圣弗尔南多                         | San Fernando                           | PHSFE |
+| 苏比克湾                           | Subic bay                              | PHSFS |
+| 塔克洛班                           | Tacloban                               | PHTAC |
+| 塔比拉兰                           | Tagbilaran                             | PHTAG |
+| 三宝颜                             | Zamboanga                              | PHZAM |
+| *东帝汶*                           | *EAST TIMOR*                           | *TL*  |
+| 帝力                               | Dili                                   | TLDIL |
+| *印度尼西亚*                       | *INDONESIA*                            | *ID*  |
+| 安汶                               | Ambon                                  | IDAMQ |
+| 巴厘巴板                           | Balikpapan                             | IDBPN |
+| 巴纽旺宣                           | Banjuwangi (Banyuwangi)                | IDBJU | 又译“外南梦”
+| 勿拉湾                             | Belawan                                | IDBLW |
+| 比通                               | Bitung                                 | IDBIT |
+| 芝拉扎                             | Cilacap                                | IDCXP |
+| 杜迈                               | Dumai                                  | IDDUM |
+| 雅加达                             | Jakarta                                | IDJKT |
+| 查亚普拉                           | Jayapura                               | IDDJJ |
+| 肯达里                             | Kendari                                | IDKDI |
+| 古邦                               | Kupang                                 | IDKOE |
+| 万鸦老                             | Menado                                 | IDMDC |
+| 巴东                               | Padang                                 | IDPDG |
+| 巨港                               | Palembang                              | IDPLM |
+| 庞卡兰苏苏                         | Pangkalan Susu                         | IDPKS |
+| 潘姜                               | Panjang                                | IDPNJ |
+| 北加浪岸                           | Pekalongan                             | IDPEX |
+| 坤甸                               | Pontianak                              | IDPNK | 又译“胖提纳克”
+| 普罗博林戈                         | Probolinggo                            | IDPRO |
+| 沙璜                               | Sabang                                 | IDSBG |
+| 三马林达                           | Samarinda                              | IDSRI |
+| 桑坦港                             | Santan Terminal                        | IDSAT | 曾译“圣坦油码头”
+| 三宝垄                             | Semarang                               | IDSRG |
+| 泗水                               | Surabaya                               | IDSUB | 又译“苏腊巴亚”
+| 丹戎潘丹                           | Tanjung Pandan                         | IDTJQ |
+| 丹戎乌班                           | Tanjunguban                            | IDTAN |
+| 打拉根                             | Tarahan                                | IDTRH |
+| 直落巴由                           | Telukbayur                             | IDTBR |
+| 特尔纳特                           | Ternate                                | IDTTE | 又译“德那第”
+| 乌戎潘当                           | Ujung Pandang                          | IDUPG | 又译“望加锡”
+|                                    |                                        |       |
+| *新加坡*                           | *SINGAPORE*                            | *SG*  |
+| 裕廊港                             | Jurong                                 | SGJUR |
+| 新加坡                             | Singapore                              | SGSIN |
+|                                    |                                        |       |
+| *马来西亚*                         | *MALAYSIA*                             | *MY*  |
+| 民都鲁                             | Bintulu                                | MYBTU |
+| 新山                               | Johore Bahru                           | MYJHB | 又译“柔佛巴鲁”
+| 哥打基纳巴卢                       | Kota Kinabalu                          | MYBKI |
+| 关丹                               | Kuantan                                | MYKUA |
+| 古晋                               | Kuching                                | MYKCH |
+| 古达                               | Kudat                                  | MYKUD |
+| 纳闽                               | Labuan                                 | MYLBU |
+| 马六甲                             | Malacca                                | MYMKZ |
+| 米里                               | Miri                                   | MYMYY |
+| 帕西古当                           | Pasir Gudang                           | MYPGU |
+| 槟城                               | Penang (Georgetown)                    | MYPEN |
+| 巴生港                             | Port  Kelang                           | MYPKG |
+| 山打根                             | Sandakan                               | MYSDK |
+| 诗巫                               | Sibu                                   | MYSBW | 又译“泗务”
+| 丹戎宜兰                           | Tanjung Gelang                         | MYTGE |
+| 丹戎帕拉帕斯                       | Tanjung Pelepas                        | MYTPP |
+| 斗湖                               | Tawau                                  | MYTWU |
+|                                    |                                        |       |
+| *文莱*                             | *BRUNEI*                               | *BN*  |
+| 斯里巴加湾港                       | Bandar Seri Begawan                    | BNBWN |
+| 麻拉                               | Muara                                  | BNMUA |
+| 诗里亚                             | Seria                                  | BNSER |
+|                                    |                                        |       |
+| *越南*                             | *VEIT NAM*                             | *VN*  |
+| 金兰                               | Camranh                                | VNCRB |
+| 芹苴                               | Can Tho                                | VNVCA |
+| 岘港                               | Da Nang                                | VNDAD |
+| 海防                               | Haiphong                               | VNHPH |
+| 胡志明市                           | Ho Chi Minh City                       | VNSGN |
+| 鸿基                               | Hongai                                 | VNHON |
+| 顺化                               | Hue                                    | VNHUI |
+| 芽庄                               | Nha Trang                              | VNNHA |
+| 归仁                               | Qui Nhon                               | VNUIH |
+| 头顿                               | Vung Tau                               | VNVUT |
+|                                    |                                        |       |
+| *柬埔寨*                           | *CAMBODIA*                             | *KH*  |
+| 西哈努克市                         | Kompong Som (Sihanoukville)            | KHKOS | 原名“磅逊”
+| 金边                               | Phnom Penh                             | HKPNH |
+|                                    |                                        |       |
+| *泰国*                             | *THAILAND*                             | *TH*  |
+| 曼谷                               | Bangkok                                | THBKK |
+| 兰查邦                             | Laem Chabang                           | THLCH | 又译“林查班”
+| 那拉提瓦                           | Narathiwat                             | THNAW |
+| 北大年                             | Pattani                                | THPAN |
+| 普吉                               | Phuket                                 | THHKT |
+| 梭桃邑                             | Sattahip                               | THSAT |
+| 是拉差                             | Si Racha                               | THSIR |
+| 宋卡                               | Songkhla                               | THSGZ |
+| 斯瑞拉察                           | Sriracha                               | THSRI |
+|                                    |                                        |       |
+| *缅甸*                             | *MYANMAR*                              | *MM*  |
+| 实兑                               | Akyab (Sittwe)                         | MMAKY |
+| 勃生                               | Bassein                                | MMBSX |
+| 皎漂                               | Kyaukpyu                               | MMKYP |
+| 毛淡棉                             | Mawlamyine (Moulmein)                  | MMMNU |
+| 墨吉                               | Mergui                                 | MMMER |
+| 土瓦                               | Tavoy                                  | MMTAV |
+| 丹兑（山多威）                     | Thandwe (Sandoway)                     | MMSAN |
+| 仰光                               | Yangon (Rangoon)                       | MMRGN |
+| 耶城                               | Ye                                     | MMXYE |
+|                                    |                                        |       |
+| *孟加拉国*                         | *BANGLADESH*                           | *BD*  |
+| 贾尔纳                             | Chalna                                 | BDCHL |
+| 吉大港                             | Chittagong                             | BDCGP |
+| 库尔纳                             | Khulna                                 | BDKHL |
+| 蒙拉                               | Mongla (Mungla)                        | BDMGL |
+|                                    |                                        |       |
+| *印度*                             | *INDIA*                                | *IN*  |
+| 包纳加尔                           | Bhavnagar                              | INBHU |
+| 金奈                               | Chennai (Madras)                       | INMAA | 原名“马德拉斯”
+| 科钦                               | Cochin                                 | INCOK |
+| 卡基纳达                           | Kakinada                               | INKAK |
+| 根德拉                             | Kandla                                 | INIXY |
+| 加里加尔                           | Karaikal (Karikal)                     | INKRK |
+| 加尔各答                           | Koldata (Calcutta)                     | INCCU |
+| 莫尔穆冈                           | Marmagao (Marmugao)                    | INMRM |
+| 孟买                               | Mumbai (Bombay)                        | INBOM |
+| 蒙德拉                             | Mundra                                 | INMUN |
+| 纳格伯蒂讷姆                       | Nagappattinam                          | INNPT |
+| 新芒格洛尔                         | New  Mangalore                         | INNML |
+| 新杜蒂戈林                         | New Tuticorin                          | INNTU |
+| 哈瓦舍瓦（尼赫鲁）                 | Nhava Sheva (Jawaharlal Nehru)         | INNSA | 即“孟买新港”
+| 巴拉迪布                           | Paradip Garh                           | INPRT |
+| 比伯沃港                           | Pipavav Port                           | INPAV |
+| 博尔本德尔                         | Porbandar                              | INPBD |
+| 雷迪                               | Redi                                   | INRED |
+| 杜蒂戈林                           | Tuticorin                              | INTUT |
+| 维沙卡帕特南                       | Visahkapatnam                          | INVTZ |
+|                                    |                                        |       |
+| *斯里兰卡*                         | *SRI LANKA*                            | *LK*  |
+| 科伦坡                             | Colombo                                | LKCMB |
+| 加勒                               | Galle                                  | LKGAL |
+| 坎凯桑图赖                         | Kankesanturai                          | LKKNK |
+| 马纳尔                             | Mannar                                 | LKMAN |
+| 塔莱曼纳尔                         | Talaimannar                            | LKTAL |
+| 亭可马里                           | Trincomalee                            | LKTRR |
+|                                    |                                        |       |
+| *马尔代夫*                         | *MALDIVES*                             | *MV*  |
+| 马累                               | Male Island                            | MVMLE |
+|                                    |                                        |       |
+| *巴基斯坦*                         | *PAKISTAN*                             | *PK*  |
+| 瓜德尔                             | Gwadar                                 | PKGWD |
+| 卡拉奇                             | Karachi                                | PKKHI |
+| 加西姆                             | Muhammad Bin Qasim                     | PKBQM |
+| 奥尔马拉                           | Ormara                                 | PKORW |
+| 伯斯尼                             | Pasni                                  | PKPSI |
+|                                    |                                        |       |
+| *伊朗*                             | *IRAN*                                 | *IR*  |
+| 阿巴丹                             | Abadan                                 | IRABD |
+| 阿巴斯港                           | Bandar Abbas                           | IRBND |
+| 霍梅尼港                           | Bandar Khomeini                        | IRBKM |
+| 马赫沙赫尔港                       | Bandar-e Mah Shahr                     | IRMRX |
+| 布什尔                             | Bushehr (Bushire)                      | IRBUZ |
+| 恰赫巴哈尔                         | Chah Bahar                             | IRZBR |
+| 哈尔克岛                           | Khark Island (Kharg Island)            | IRKHK |
+| 胡宁沙赫尔                         | Khorramshahr                           | IRKHO | 又译“霍拉姆沙赫尔”
+|                                    |                                        |       |
+| *格鲁吉亚*                         | *GEORGIA*                              | *GE*  |
+| 巴统                               | Batumi                                 | GEBUS |
+| 波季                               | Poti                                   | GEPTI |
+|                                    |                                        |       |
+| *土耳其*                           | *TURKEY*                               | *TR*  |
+| 安巴尔利                           | Ambarli                                | TRPAM |
+| 安塔利亚                           | Antalya                                | TRAYT |
+| 班德尔马                           | Bandirma                               | TRBDM |
+| 恰纳卡莱                           | Canakkale                              | TRCKZ |
+| 代林杰                             | Derince                                | TRDRC |
+| 埃雷利                             | Eregli                                 | TRERE |
+| 盖利博卢                           | Gelibolu                               | TRGEL |
+| 盖姆利克                           | Gemlik                                 | TRGEM |
+| 吉雷松                             | Giresun                                | TRGIR |
+| 伊斯肯德伦                         | Iskenderun                             | TRISK |
+| 伊斯坦布尔                         | Istanbul                               | TRIST |
+| 伊兹密尔                           | Izmir                                  | TRIZM |
+| 伊兹米特                           | Izmit                                  | TRIZT |
+| 库沙达瑟                           | Kusadasi                               | TRKUS |
+| 梅尔辛                             | Mersin                                 | TRMER |
+| 萨姆松                             | Samsun                                 | TRSSX |
+| 锡诺普                             | Sinop                                  | TRSIC |
+| 泰基尔达                           | Tekirdag                               | TRTEK |
+| 特拉布宗                           | Trabzon                                | TRTZX |
+| 宗古尔达克                         | Zonguldak                              | TRZON |
+|                                    |                                        |       |
+| *塞浦路斯*                         | *CYPRUS*                               | *CY*  |
+| 法马古斯塔                         | Famagusta                              | CYFMG |
+| 拉纳卡                             | Larnaca                                | CYLCA |
+| 利马索尔                           | Limassol                               | CYLMS |
+| 帕福斯                             | Paphos                                 | CYPFO |
+|                                    |                                        |       |
+| *叙利亚*                           | *SYRIA*                                | *SY*  |
+| 巴尼亚斯                           | Baniyas                                | SYBAN |
+| 拉塔基亚                           | Latakia                                | SYLTK |
+| 塔尔图斯                           | Tartus                                 | SYTTS |
+|                                    |                                        |       |
+| *黎巴嫩*                           | *LEBANON*                              | *LB*  |
+| 贝鲁特                             | Beirut                                 | LBBEY |
+| 赛达                               | Sayda                                  | LBSAY | 曾名“西顿 (Sidon)”
+| 苏尔                               | Sur (Tyre)                             | LBSUR |
+| 的黎波里                           | Tripoli                                | LBKYE |
+|                                    |                                        |       |
+| *以色列*                           | *ISRAEL*                               | *IL*  |
+| 阿什杜德                           | Ashdod                                 | ILASH |
+| 阿什克伦                           | Ashkelon                               | ILAKL |
+| 埃拉特                             | Eilat (Eilath)                         | ILETH |
+| 海法                               | Haifa                                  | ILHFA |
+| 特拉维夫-雅法                      | Tel Aviv-Yafo                          | ILTLV |
+|                                    |                                        |       |
+| *约旦*                             | *JORDAN*                               | *JO*  |
+| 亚喀巴                             | Aqaba (Al 'Aqabah)                     | JOAQJ |
+|                                    |                                        |       |
+| *伊拉克*                           | *IRAQ*                                 | *IQ*  |
+| 巴士拉                             | Basra                                  | IQBSR |
+| 法奥                               | Fao                                    | IQFAO |
+| 乌姆盖斯尔                         | Umm Qasr                               | IQUQR |
+|                                    |                                        |       |
+| *科威特*                           | *KUWAIT*                               | *KW*  |
+| 科威特                             | Kuwait                                 | KWKWI |
+| 艾哈迈迪港                         | Mina'al Ahmadi                         | KWMEA |
+| 舒艾拜                             | Shuaiba                                | KWSAA |
+|                                    |                                        |       |
+| *沙特阿拉伯*                       | *SAUDI ARABIA*                         | *SA*  |
+| 达曼                               | Ad Dammam                              | SADMM |
+| 吉达                               | Jeddah                                 | SAJED |
+| 吉赞                               | Jizan                                  | SAGIZ |
+| 朱阿马港                           | Juaymah Terminal                       | SAJUT |
+| 朱拜勒                             | Jubail                                 | SAJUB |
+| 拉斯坦努拉                         | Ras Tanura                             | SARTA |
+| 延布                               | Yanbu al-Bahr                          | SAYNB |
+|                                    |                                        |       |
+| *巴林*                             | *BAHRAIN*                              | *BH*  |
+| 巴林                               | Bahrain                                | BHBAH |
+| 麦纳麦                             | Manama (Al Manamah)                    | BHMAN |
+| 米纳苏尔曼                         | Mina Sulman                            | BHMIN |
+| 锡特拉                             | Sitra                                  | BHSIT |
+|                                    |                                        |       |
+| *卡塔尔*                           | *QATAR*                                | *QA*  |
+| 多哈                               | Doha                                   | QADOH |
+| 莱凡角                             | Ras Laffan                             | QARLF |
+| 乌姆赛义德                         | Umm Said                               | QAUMS |
+|                                    |                                        |       |
+| *阿拉伯联合酋长国*                 | *UNITED ARAB EMIRATES*                 | *AE*  |
+| 阿布扎比                           | Abu Dhabi                              | AEAUH |
+| 富查伊拉                           | Al Fujayrah                            | AEFJR |
+| 迪拜                               | Dubai                                  | AEDXB |
+| 阿里山                             | Jebel Ali                              | AEJEA |
+| 豪尔费坎                           | Khor al Fakkan (Khawr Fakkan)          | AEKLF |
+| 拉希德港                           | Port Rashid                            | AEPRA |
+| 哈伊马角                           | Ras al Khaimah                         | AERKT |
+| 沙迦                               | Sharjah                                | AESHJ |
+| 乌姆盖万                           | Umm al Qaiwain                         | AEQIW |
+|                                    |                                        |       |
+| *阿曼*                             | *OMAN*                                 | *OM*  |
+| 费赫勒港                           | Mina al Fahal                          | OMMFH |
+| 马斯喀特                           | Muscat                                 | OMMCT |
+| 马特拉                             | Muthra                                 | OMMUT |
+| 卡布斯港                           | Port Qaboos (mina Qaboos)              | OMOPQ |
+| 赖苏特                             | Raysut                                 | OMRAY |
+| 塞拉莱                             | Salalah                                | OMSLL |
+|                                    |                                        |       |
+| *也门*                             | *YEMEN*                                | *YE*  |
+| 亚丁                               | Aden                                   | YEADE |
+| 荷台达                             | Hodeidah                               | YEHOD |
+| 穆哈                               | Mokha                                  | YEMOK |
+| 穆卡拉                             | Mukalla                                | YEMKX |
+| 萨利夫                             | Saleef Port                            | YESAL |
+|                                    |                                        |       |
+4+| 欧洲
+| *俄罗斯*                           | *RUSSIA*                               | *RU*  |
+| 亚历山德罗夫斯克                   | Aleksandrovsk-Sakhalinskiy             | RUSAK | 位于萨哈林岛
+| 阿纳德尔                           | Anadyr                                 | RUDYR |
+| 阿尔汉格尔斯克                     | Arkhangelsk                            | RUARH |
+| 加里宁格勒                         | Kaliningrad                            | RUKGD |
+| 霍尔姆斯克                         | Kholmsk                                | RUKHO |
+| 科尔萨科夫                         | Korsakov                               | RUKOR |
+| 马加丹                             | Magadan (magadansky, Port)             | RUMAG |
+| 摩尔曼斯克                         | Murmansk                               | RUMMK |
+| 纳霍德卡                           | Nakhodka                               | RUNJK |
+| 涅韦尔斯克                         | Nevelsk                                | RUNEV |
+| 新罗西斯克                         | Novorossiysk                           | RUNVS |
+| 鄂霍次克                           | Okhotsk                                | RUOHO |
+| 彼得罗巴甫洛夫斯克                 | Petropavlovsk                          | RUPKC |
+| 波罗奈斯克                         | Poronaisk                              | RUPRN |
+| 罗斯托夫                           | Rostov                                 | RUROV |
+| 索契                               | Sochi                                  | RUSOC |
+| 圣彼得堡                           | ST. Petersburg                         | RULED | 曾名“列宁格勒”
+| 塔甘罗格                           | Taganrog                               | RUTAG |
+| 图阿普谢                           | Tuapse                                 | RUTUA |
+| 乌格列戈尔斯克                     | Uglegorsk                              | RUUGL | 曾译“乌格里哥斯克”
+| 乌斯季堪察茨克                     | Ust-Kamchatsk                          | RUUKK |
+| 瓦尼诺                             | Vanino                                 | RUVNN |
+| 符拉迪沃斯托克/海参崴              | Vladivostok                            | RUVVO |
+| 东方港                             | Vostochnyy (Vostochniy, Port)          | RUVYP |
+| 扎鲁比诺                           | Zarubino                               | RUZAR |
+|                                    |                                        |       |
+| *乌克兰*                           | *UKRAINE*                              | *UA*  |
+| 别尔江斯克                         | Berdyansk                              | UAERD |
+| 伊利乔夫斯克                       | Illichivs'k (Ilichevsk)                | UAILK |
+| 伊兹梅尔                           | Izmail                                 | UAIZM |
+| 刻赤                               | Kertch                                 | UAKEH |
+| 赫尔松                             | Kherson                                | UAKHE |
+| 马里乌波尔                         | Mariupol (Zhdanov)                     | UAMPW | 曾名“日丹诺夫”
+| 尼古拉耶夫                         | Nikolayev                              | UANIK |
+| 敖德萨                             | Odessa                                 | UAODS |
+| 塞瓦斯托波尔                       | Sevastopol                             | UASVP |
+| 雅尔塔                             | Yalta                                  | UAYAL |
+| 别尔哥罗德-德涅斯特洛夫斯基        | Belgorod-Dnestrovskiy                  | UABGD |
+| 雷尼                               | Reni                                   | UARNI |
+|                                    |                                        |       |
+| *罗马尼亚*                         | *ROMANIA*                              | *RO*  |
+| 布勒伊拉                           | Braila                                 | ROBRA |
+| 康斯坦察                           | Constanta                              | ROCND |
+| 曼加利亚                           | Mangalia                               | ROMAG |
+| 苏利纳                             | Sulina                                 | ROSUL |
+|                                    |                                        |       |
+| *保加利亚*                         | *BULGARIA*                             | *BG*  |
+| 布尔加斯                           | Burgas                                 | BGBOJ |
+| 纳塞巴尔                           | Nessebar                               | BGNES |
+| 索佐波尔                           | Sozopol                                | BGSOZ |
+| 瓦尔纳                             | Varna                                  | BGVAR |
+|                                    |                                        |       |
+| *希腊*                             | *GREECE*                               | *GR*  |
+| 阿斯塔科斯                         | Astakos                                | GRAST |
+| 希俄斯                             | Chios                                  | GRJKH |
+| 伊拉克利翁                         | Iraklion (Heraklion)                   | GRHER |
+| 伊泰阿                             | Itea                                   | GRITA |
+| 卡拉迈                             | Kalamata                               | GRKLX | 曾译“卡拉马塔”
+| 卡瓦拉                             | Kavala                                 | GRKVA |
+| 迈加拉                             | Megara                                 | GRMGR |
+| 米提林尼                           | Mitylene                               | GRMJT |
+| 帕特雷                             | Patras                                 | GRGPA |
+| 比雷埃夫斯                         | Piraeus                                | GRPIR |
+| 罗得                               | Rhodes                                 | GRRHO |
+| 锡罗斯                             | Syros (Syra)                           | GRJSY |
+| 塞萨洛尼基                         | Thessaloniki                           | GRSKG |
+| 沃洛斯                             | Volos                                  | GRVOL |
+|                                    |                                        |       |
+| *阿尔巴尼亚*                       | *ALBANIA*                              | *AL*  |
+| 都拉斯                             | Durres                                 | ALDRZ |
+| 萨兰达                             | Sarande                                | ALSAR |
+| 圣吉尼                             | Shengjin                               | ALSHG |
+| 发罗拉                             | Vlora (Vlone)                          | ALVOA |
+|                                    |                                        |       |
+| *黑山*                             | *MONTENEGRO*                           | *ME*  |
+| 巴尔                               | Bar                                    | MEBAR |
+| 科托尔                             | Kotor                                  | MEKOT |
+|                                    |                                        |       |
+| *克罗地亚*                         | *CROATIA*                              | *HR*  |
+| 杜布罗夫尼克                       | Dubrovnik                              | HRDBV |
+| 普洛切                             | Ploce                                  | HRPLE | 曾名“卡德尔耶沃”
+| 普拉                               | Pula                                   | HRPUY |
+| 里耶卡                             | Rijeka                                 | HRRJK |
+| 斯普利特                           | Split                                  | HRSPU |
+| 扎达尔                             | Zadar                                  | HRZAD |
+|                                    |                                        |       |
+| *斯洛文尼亚*                       | *SLOVENIA*                             | *SI*  |
+| 科佩尔                             | Koper                                  | SIKOP |
+|                                    |                                        |       |
+| *马耳他*                           | *MALTA*                                | *MT*  |
+| 瓦莱塔                             | Valetta                                | MTMLA |
+| 马尔萨什洛克                       | Marsaxlokk                             | MTMAR |
+|                                    |                                        |       |
+| *意大利*                           | *ITALY*                                | *IT*  |
+| 安科纳                             | Ancona                                 | ITAOI |
+| 阿尔巴塔克斯                       | Arbatax                                | ITATX |
+| 奥古斯塔                           | Augusta                                | ITAUG |
+| 巴里                               | Bari                                   | ITBRI |
+| 巴列塔                             | Barletta                               | ITBLT |
+| 布林迪西                           | Brindisi                               | ITBDS |
+| 卡利亚里                           | Cagliari                               | ITCAG |
+| 卡塔尼亚                           | Catania                                | ITCTA |
+| 奇维塔韦基亚                       | Civitavecchia                          | ITCVV |
+| 法尔科纳拉                         | Falconara                              | ITFAL |
+| 菲乌米奇诺                         | Fiumicino                              | ITFCO |
+| 加埃塔                             | Gaeta                                  | ITGAE |
+| 杰拉                               | Gela                                   | ITGEA |
+| 热那亚                             | Genoa                                  | ITGOA |
+| 焦亚陶罗                           | Gioia Tauro                            | ITGIT |
+| 因佩里亚                           | Imperia                                | ITIMP |
+| 拉斯佩齐亚                         | La Spezia                              | ITSPE | 曾译“斯佩齐亚”
+| 里窝那                             | Livorno                                | ITLIV |
+| 墨西拿                             | Messina                                | ITMSN |
+| 米拉佐                             | Milazzo                                | ITMLZ |
+| 那波利                             | Napoli                                 | ITNAP | 又名“那不勒斯（Naples）”
+| 奥里斯塔诺                         | Oristano                               | ITQOS |
+| 巴勒莫                             | Palermo                                | ITPMO |
+| 皮翁比诺                           | Piombino                               | ITPIO |
+| 诺加罗港                           | Porto Nogaro                           | ITPNG |
+| 托雷斯港                           | Proto Torres                           | ITPTO |
+| 拉韦纳                             | Ravenna                                | ITRAN | “曾译”腊万纳“
+| 萨莱诺                             | Salerno                                | ITSAL |
+| 萨罗克（福克西港）                 | Sarroch (Porto Foxi)                   | ITPFX |
+| 萨沃纳                             | Savona / Funivie                       | ITSVN |
+| 塔兰托                             | Taranto                                | ITTAR |
+| 的里雅斯特                         | Trieste                                | ITTRS |
+| 威尼斯                             | Venezia (Venice)                       | ITVCE |
+|                                    |                                        |       |
+| *摩纳哥*                           | *MONACO*                               | *MC*  |
+| 摩纳哥                             | Monaco                                 | MCMON | 客运港，无商业活动
+| 蒙特卡洛                           | Monte Carlo                            | MCMCM |
+|                                    |                                        |       |
+| *直布罗陀*                         | *GIBRALTAR*                            | *GI*  |
+| 直布罗陀                           | Gibraltar                              | GIGIB |
+|                                    |                                        |       |
+| *葡萄牙*                           | *PORTUGAL*                             | *PT*  |
+| 英雄港                             | Angra do Heroismo                      | PTADH | 位于亚速尔群岛
+| 阿威鲁                             | Aveiro                                 | PTAVE |
+| 菲盖拉达福什                       | Figueira da Foz                        | PTFDF |
+| 丰沙尔                             | Funchal                                | PTFNC | 位于马德拉群岛
+| 奥尔塔                             | Horta                                  | PTHOR | 位于亚速尔群岛
+| 莱雄伊什                           | Leixoes                                | PTLEI | 曾译“雷克索斯”
+| 里斯本                             | Lisboa                                 | PTLIS |
+| 蓬塔德尔加达港                     | Ponta Delgada                          | PTPDL | 位于亚速尔群岛
+| 波尔蒂芒                           | Portimao                               | PTPRM |
+| 波尔图                             | Porto                                  | PTOPO |
+| 塞图巴尔                           | Setubal                                | PTSET |
+| 锡尼什                             | Sines                                  | PTSIE |
+| 维亚纳堡                           | Viana do Castelo                       | PTVDC |
+|                                    |                                        |       |
+| *西班牙*                           | *SPAIN*                                | *ES*  |
+| 阿尔库迪亚                         | Alcudia                                | ESALD |
+| 阿尔赫西拉斯                       | Algeciras                              | ESALG |
+| 阿利坎特                           | Alicante                               | ESALC |
+| 阿尔梅里亚                         | Almeria                                | ESLEI |
+| 阿雷西费                           | Arrecife de Lanzarote                  | ESACE | 位于加那利群岛
+| 阿维莱斯                           | Aviles                                 | ESAVS |
+| 巴塞罗那                           | Barcelona                              | ESBCN |
+| 毕尔巴鄂                           | Bilbao                                 | ESBIO |
+| 加的斯                             | Cadiz                                  | ESCAD |
+| 卡塔赫纳                           | Cartagena                              | ESCAR |
+| 卡斯特利翁-德拉普拉纳              | Castellon de la Plana                  | ESCAS |
+| 休达                               | Ceuta                                  | ESCEU | 位于非洲北部
+| 费罗尔                             | Ferrol                                 | ESFRO |
+| 甘迪亚                             | Gandia                                 | ESGAN |
+| 希洪                               | Gijon                                  | ESGIJ |
+| 韦尔瓦                             | Huelva                                 | ESHUV |
+| 拉科鲁尼亚                         | La Coruna                              | ESLCG |
+| 拉斯帕尔马斯                       | Las Palmas                             | ESLPA | 位于加那利群岛
+| 马拉加                             | Malaga                                 | ESAGP |
+| 马林                               | Marin                                  | ESMPG |
+| 梅利利亚                           | Melilla                                | ESMLN | 位于非洲北部
+| 帕拉莫斯                           | Palamos                                | ESPAL |
+| 帕尔马                             | Palma de Mallorca                      | ESPMI |
+| 帕萨赫斯                           | Pasajes                                | ESPAS |
+| 罗萨里奥港                         | Puerto del Rosario-Fuerteventura       | ESFUE | 位于加那利群岛
+| 罗塔                               | Rota                                   | ESROT |
+| 萨贡托                             | Sagunto                                | ESSAG |
+| 圣克鲁斯                           | Santa Cruz de Tenerife                 | ESSCT | 位于加那利群岛
+| 桑坦德                             | Santander                              | ESSDR |
+| 塞维利亚                           | Sevilla                                | ESSVQ |
+| 塔拉戈纳                           | Tarragona                              | ESTAR |
+| 巴伦西亚                           | Valencia                               | ESVLC |
+| 维哥                               | Vigo                                   | ESVGO |
+|                                    |                                        |       |
+| *法国*                             | *FRANACE*                              | *FR*  |
+| 阿雅克肖                           | Ajaccio                                | FRAJA |
+| 巴斯蒂亚                           | Bastia                                 | FRBIA |
+| 巴约讷                             | Bayonne                                | FRBAY |
+| 波尔多                             | Bordeaux                               | FRBOD |
+| 布洛涅                             | Boulogne-sur-Mer                       | FRBOL |
+| 布鲁斯特                           | Brest                                  | FRBES |
+| 卡昂                               | Caen                                   | FRCFR |
+| 加来                               | Calais                                 | FRCQF |
+| 瑟堡                               | Cherbourg                              | FRCER |
+| 迪耶普                             | Dieppe                                 | FRDPE |
+| 敦刻尔克                           | Dunkerque                              | FRDKK |
+| 福斯                               | Fos-sur-Mer                            | FRFOS |
+| 拉西约塔                           | La Ciotat                              | FRLCT |
+| 拉帕利斯                           | La Pallice                             | FRLPE |
+| 拉罗谢尔                           | LA Rochelle                            | FRLRH |
+| 拉瓦拉                             | Lavera                                 | FRLAV |
+| 勒阿弗尔                           | Le Havre                               | FRLEH |
+| 洛里昂                             | Lorient                                | FRLRT |
+| 马赛                               | Marseille                              | FRMRS |
+| 蒙图瓦尔                           | Montoir-de-Bretagne                    | FRMTX |
+| 南特                               | Nantes                                 | FRNTE |
+| 尼斯                               | Nice                                   | FRNCE |
+| 巴黎                               | Paris                                  | FRPAR |
+| 鲁昂                               | Rouen                                  | FRURO |
+| 塞特港                             | Sete                                   | FRSET |
+| 圣马洛                             | St Malo                                | FRSML |
+| 圣纳泽尔                           | St Nazaire                             | FRSNR |
+| 土伦                               | Toulon                                 | FRTLN |
+|                                    |                                        |       |
+| *比利时*                           | *BELGIUM*                              | *BE*  |
+| 安特卫普                           | Antwerpen                              | BEANR |
+| 根特                               | Gent (Ghent)                           | BEGNE |
+| 列日                               | Liege                                  | BELGG |
+| 奥斯坦德                           | Ostend (Oostende)                      | BEOST |
+| 泽布吕赫 / 泽布腊赫                | Zeebrugge                              | BEZEE |
+|                                    |                                        |       |
+| *荷兰*                             | *NETHERLANDS*                          | *NL*  |
+| 阿姆斯特丹                         | Amsterdam                              | NLAMS |
+| 代尔夫宰尔                         | Delfzijl                               | NLDZL |
+| 埃姆斯港                           | Eemshaven                              | NLEEM |
+| 格罗宁根                           | Groningen                              | NLGRQ |
+| 哈灵根                             | Harlingen                              | NLHAR |
+| 艾默伊登                           | IJmuiden                               | NLIJM |
+| 穆尔代克                           | Moerdijk                               | NLMOE |
+| 鹿特丹                             | Rotterdam                              | NLRTM |
+| 斯海弗宁恩                         | Scheveningen                           | NLSCE |
+| 泰尔讷曾                           | Terneuzen                              | NLTNZ |
+| 弗拉尔丁恩                         | Vlaardingen                            | NLVLA |
+| 弗利辛恩                           | Vlissingen                             | NLVLI |
+| 赞丹                               | Zaandam                                | NLZAA |
+|                                    |                                        |       |
+| *德国*                             | *GERMANY*                              | *DE*  |
+| 布拉克                             | Brake                                  | DEBKE |
+| 不来梅                             | Bremen                                 | DEBRE |
+| 不来梅港                           | Bremerhaven                            | DEBRV |
+| 布伦斯比特尔                       | Brunsbuttel                            | DEBRB |
+| 库克斯港                           | Cuxhaven                               | DECUX |
+| 杜伊斯堡                           | Duisburg                               | DEDUI |
+| 杜塞尔多夫                         | Dusseldorf                             | DEDUS |
+| 埃姆登                             | Emden                                  | DEEME |
+| 汉堡                               | Hamburg                                | DEHAM |
+| 卡尔斯鲁厄                         | Karlsruhe                              | DEHAE |
+| 凯尔                               | Kehl                                   | DEKEH |
+| 基尔                               | Kiel                                   | DEKEL |
+| 科隆                               | Koln (Cologne)                         | DECGN |
+| 吕贝克                             | Lubeck                                 | DELBC |
+| 诺伊斯                             | Neuss                                  | DENSS |
+| 诺尔登哈姆                         | Nordenham                              | DENHA |
+| 伦茨堡                             | Rendsburg                              | DEREN |
+| 罗斯托克                           | Rostock                                | DERSK |
+| 特拉沃明德                         | Travemunde                             | DETRV |
+| 威廉港                             | Wilhelmshaven                          | DEWVN | 又译“威廉斯港”
+| 维斯马                             | Wismar                                 | DEWIS |
+|                                    |                                        |       |
+| *丹麦*                             | *DENMARK*                              | *DK*  |
+| 奥尔堡                             | Aalborg                                | DKAAL |
+| 奥胡斯                             | Arhus                                  | DKAAR |
+| 埃斯比约                           | Esbjerg                                | DKEBJ |
+| 腓特烈西亚                         | Fredericia                             | DKFRC |
+| 腓特烈港                           | Frederikshavn                          | DKFDH |
+| 格雷诺                             | Grenaa                                 | DKGRE |
+| 赫尔辛格                           | Helsingor                              | DKHLS |
+| 凯隆堡                             | Kalundborg                             | DKKAL |
+| 哥本哈根                           | Kobenhavn (Copenhagen)                 | DKCPH |
+| 克厄                               | Koge                                   | DKKOG |
+| 米泽尔法特                         | Middelfart                             | DKMID |
+| 欧登塞                             | Odense                                 | DKODE |
+| 伦讷                               | Ronne                                  | DKRNN |
+| 森讷堡                             | Sonderborg                             | DKSGD |
+| 斯楚厄                             | Struer                                 | DKSTR |
+| 斯文堡                             | Svendborg                              | DKSVE |
+|                                    |                                        |       |
+| *波兰*                             | *POLAND*                               | *PL*  |
+| 格但斯克                           | Gdansk                                 | PLGDN |
+| 格丁尼亚                           | Gdynia                                 | PLGDY |
+| 希维诺乌伊希切                     | Swinoujscie                            | PLSWI |
+| 什切青                             | Szczecin                               | PLSZZ |
+|                                    |                                        |       |
+| *立陶宛*                           | *LITHUANIA*                            | *LT*  |
+| 克莱佩达                           | Klaipeda                               | LTKLJ |
+|                                    |                                        |       |
+| *拉脱维亚*                         | *LATVIA*                               | *LV*  |
+| 利耶帕亚                           | Liepaja                                | LVLPX |
+| 里加                               | Riga                                   | LVIRX |
+| 文茨皮尔斯                         | Ventspils                              | LVVNT |
+|                                    |                                        |       |
+| *爱沙尼亚*                         | *ESTONIA*                              | *EE*  |
+| 派尔努 / 皮亚尔努                  | Parnu                                  | EEPRN |
+| 塔林                               | Tallinn                                | EETLL |
+| 穆加（新塔林）                     | Muuga                                  | EEMUG |
+|                                    |                                        |       |
+| *芬兰*                             | *FINLAND*                              | *FI*  |
+| 哈米纳                             | Hamina (Fredrikshamn)                  | FIHMN |
+| 汉科                               | Hango (Hanko)                          | FIHKO |
+| 赫尔辛基                           | Helsinki (Helsingfors)                 | FIHEL |
+| 凯米                               | Kemi                                   | FIKEM |
+| 科科拉                             | Kokkola (Karleby)                      | FIKOK |
+| 科特卡                             | Kotka                                  | FIKTK |
+| 克里斯蒂娜城                       | Kristiinankaupunki (Kristinestad)      | FIKRS |
+| 洛维萨                             | Loviisa                                | FILOV |
+| 曼蒂卢奥托                         | Mantyluoto                             | FIMTY |
+| 穆斯托拉                           | Mustola                                | FIMUS |
+| 奥卢                               | Oulu                                   | FIOLU |
+| 波里                               | Pori (Bjorneborg)                      | FIPOR |
+| 拉赫                               | Raahe                                  | FIRAA |
+| 劳马                               | Rauma (Raumo)                          | FIRAU |
+| 托尔尼奥                           | Tornio (Tornea)                        | FITOR |
+| 图尔库                             | Turku (Abo)                            | FITKU |
+| 新考蓬基                           | Uusikaupunki                           | FIUKI |
+| 瓦萨                               | Vaasa (Vasa)                           | FIVAA |
+| 韦伊齐卢奥托                       | Veitsiluoto                            | FIVEI |
+|                                    |                                        |       |
+| *瑞典*                             | *SWEDEN*                               | *SE*  |
+| 奥胡斯                             | Ahus                                   | SEAHU |
+| 法尔肯贝里                         | Falkenberg                             | SEFAG |
+| 耶夫勒                             | Gavle                                  | SEGVX |
+| 哥德堡                             | Goteborg                               | SEGOT |
+| 哈尔姆斯塔德                       | Halmstad                               | SEHAD |
+| 海讷桑德                           | Harnosand                              | SEHND |
+| 赫尔辛堡                           | Helsingborg                            | SEHEL |
+| 胡迪克斯瓦尔                       | Hudiksvall                             | SEHUV |
+| 卡尔马                             | Kalmar                                 | SEKLR |
+| 卡尔斯港                           | Karlshamn                              | SEKAN |
+| 卡尔斯克鲁纳                       | Karlskrona                             | SEKAA |
+| 卡尔斯塔德                         | Karlstad                               | SEKSD |
+| 雪平                               | Koping                                 | SEKOG |
+| 兰斯克鲁纳                         | Landskrona                             | SELAA |
+| 吕勒奥                             | Lulea                                  | SELLA |
+| 马尔默                             | Malmo                                  | SEMMA |
+| 诺尔雪平                           | Norrkoping                             | SENRK | 又译“北雪平”
+| 恩舍尔兹维克                       | Ornskoldsvik                           | SEOER |
+| 奥斯卡港                           | Oskarshamn                             | SEOSK |
+| 乌克瑟勒松德                       | Oxelosund                              | SEOXE |
+| 皮特奥                             | Pitea                                  | SEPIT |
+| 南泰利耶                           | Sodertalje                             | SESOE |
+| 瑟尔沃斯堡                         | Solvesborg                             | SESOL |
+| 斯德哥尔摩                         | Stockholm                              | SESTO |
+| 松兹瓦尔                           | Sundsvall                              | SESDL |
+| 乌德瓦拉                           | Uddevalla                              | SEUDD |
+| 于默奥                             | Umea                                   | SEUME |
+| 瓦尔贝里                           | Varberg                                | SEVAG |
+| 韦斯特罗斯                         | Vasteras                               | SEVST |
+| 瓦尔港                             | Wallhamn                               | SEWAL |
+|                                    |                                        |       |
+| *挪威*                             | *NORWAY*                               | *NO*  |
+| 奥勒松                             | Alesund                                | NOAES |
+| 阿伦达尔                           | Arendal                                | NOARE |
+| 班布勒                             | Bamble                                 | NOAM  |
+| 博尔格港                           | Berg Harbour                           | NOBER |
+| 卑尔根                             | Bergen                                 | NOBGO |
+| 博德                               | Bodo                                   | NOBOO | 又译“博多”
+| 德拉门                             | Drammen                                | NODRM |
+| 埃格尔松                           | Egersund                               | NOEGE |
+| 弗卢勒                             | Floro                                  | NOFRO |
+| 腓特烈斯塔                         | Fredrikstad                            | NOFRK |
+| 格里姆斯塔                         | Grimstad                               | NOGTD |
+| 霍维克                             | Haavik                                 | NOHAA |
+| 哈尔登                             | Halden                                 | NOHAL |
+| 哈默弗斯特                         | Hammerfest                             | NOHFT |
+| 哈尔斯塔                           | Harstad                                | NOHRD |
+| 海于格松                           | Haugesund                              | NOHAU |
+| 霍滕                               | Horten                                 | NOHOR |
+| 希尔克内斯                         | Kirkenes                               | NOKKN |
+| 克里斯蒂安桑                       | Kristiansand                           | NOKRS |
+| 克里斯蒂安松                       | Kristiansund                           | NOKSU |
+| 拉尔维克                           | Larvik                                 | NOLAR |
+| 莱尔维克                           | Leirvik                                | NOLRI |
+| 勒丁恩                             | Lodingen                               | NOLOD |
+| 曼达尔                             | Mandal                                 | NOMAN |
+| 莫尔德                             | Molde                                  | NOMOL |
+| 莫舍恩                             | Mosjoen                                | NOMJF |
+| 莫斯                               | Moss                                   | NOMSS |
+| 纳尔维克                           | Narvik                                 | NONVK |
+| 奥达                               | Odda                                   | NOODD |
+| 奥斯陆                             | Oslo                                   | NOOSL |
+| 赛于达                             | Sauda                                  | NOSAU |
+| 希恩                               | Skien                                  | NOSKE |
+| 斯塔万格                           | Stavanger                              | NOSVG |
+| 滕斯贝格                           | Tonsberg                               | NOTON |
+| 特罗姆瑟                           | Tromso                                 | NOTOS |
+| 特隆赫姆                           | Trondheim                              | NOTRD |
+|                                    |                                        |       |
+| *冰岛*                             | *ICELAND*                              | *IS*  |
+| 阿克雷里                           | Akureyri                               | ISAKU |
+| 埃斯基菲约泽                       | Eskifjordur                            | ISESK |
+| 赫本                               | Hofn                                   | ISHFN |
+| 胡萨维克                           | Husavik                                | ISHUS |
+| 伊萨菲厄泽                         | Isafjordur-hofn                        | ISISA |
+| 凯夫拉维克                         | Keflavikukaupstadur                    | ISKEV |
+| 内斯克伊斯塔泽                     | Neskaupstadur                          | ISNES |
+| 雷克雅未克                         | Reykjavik                              | ISREY |
+| 塞济斯菲厄泽                       | Seydisfjordur                          | ISSEY |
+| 韦斯特曼纳埃亚                     | Vestmannaeyjar-hofn                    | ISVES | 又译“韦斯特曼纳岛”
+|                                    |                                        |       |
+| *法罗群岛*                         | *FAROE ISLANDS*                        | *FO*  |
+| 托尔斯港                           | Thorshavn                              | FOTHO |
+| 韦斯特门港                         | Vestmanhavn                            | FOVES |
+|                                    |                                        |       |
+| *爱尔兰*                           | *IRELAND*                              | *IE*  |
+| 班特里                             | Bantry                                 | IEBYT |
+| 科克                               | Cork                                   | IEORK |
+| 德罗赫达                           | Drogheda                               | IEDRO |
+| 都柏林                             | Dublin                                 | IEDUB |
+| 邓莱里                             | Dun Laoghaire                          | IEDLG |
+| 福因斯                             | Foynes                                 | IEFOV |
+| 戈尔韦                             | Galway                                 | IEGWY |
+| 利默里克                           | Limerick                               | IELMK |
+| 沃特福德                           | Waterford                              | IEWAT |
+|                                    |                                        |       |
+| *马恩岛*                           | *ISLE OF MAN*                          | *IM*  |
+| 道格拉斯                           | Douglas                                | IMDGS |
+|                                    |                                        |       |
+| *泽西岛*                           | *JERSEY*                               | *JE*  |
+| 圣赫利尔                           | St Helier                              | JESTH |
+|                                    |                                        |       |
+| *根西岛*                           | *GUERNSEY*                             | *GG*  |
+| 圣彼得港                           | St Peter Port                          | GGSPT |
+|                                    |                                        |       |
+| *英国*                             | *UNITED KINGDOM*                       | *GB*  |
+| 阿伯丁                             | Aberdeen                               | GBABD |
+| 阿德罗森                           | Ardrossan                              | GBARD |
+| 贝尔法斯特                         | Belfast                                | GBBEL |
+| 比迪福德                           | Bideford                               | GBBID |
+| 布莱斯                             | Blyth                                  | GBBLY |
+| 波士顿                             | Boston                                 | GBBOS |
+| 布里斯托尔                         | Bristol                                | GBBRS |
+| 加的夫                             | Cardiff                                | GBCDF |
+| 克莱德港                           | Clydeport                              | GBCYP |
+| 科尔雷恩                           | Coleraine                              | GBCLR |
+| 多佛尔                             | Dover                                  | GBDVR |
+| 邓迪                               | Dundee                                 | GBDUN |
+| 法尔茅斯                           | Falmouth                               | GBFAL |
+| 费利克斯托                         | Felixstowe                             | GBFXT | 又译“弗利克斯托”
+| 菲什加德                           | Fishguard                              | GBFIS |
+| 弗利克斯伯勒                       | Flixborough                            | GBFLW |
+| 弗雷泽堡                           | Fraserburgh                            | GBFRB |
+| 格拉斯哥                           | Glasgow                                | GBGLW |
+| 古尔                               | Goole                                  | GBGOO |
+| 格兰奇茅斯                         | Grangemouth                            | GBGRG |
+| 大雅茅斯                           | Great Yarmouth                         | GBGTY |
+| 格里诺克                           | Greenock                               | GBGRK |
+| 格里姆斯比                         | Grimsby                                | GBGSY |
+| 哈特尔浦                           | Hartlepool                             | GBHTP |
+| 哈里奇                             | Harwich                                | GBHRW |
+| 赫斯尔                             | Hessle                                 | GBHSE |
+| 希舍姆                             | Heysham                                | GBHYM |
+| 赫尔                               | Hull                                   | GBHUL |
+| 伊明赫姆                           | Immingham                              | GBIMM |
+| 伊普斯威奇                         | Ipswich                                | GBIPS |
+| 格雷恩岛                           | Isle of Grain                          | GBIOG |
+| 金斯林                             | King's Lynn                            | GBKLN |
+| 柯克沃尔                           | Kirkwall                               | GBKWL |
+| 拉恩                               | Larne                                  | GBLAR |
+| 利斯                               | Leith                                  | GBLEI |
+| 利物浦                             | Liverpool                              | GBLIV |
+| 伦敦                               | London                                 | GBLON |
+| 伦敦德里                           | Londonderry                            | GBLDY |
+| 洛斯托夫特                         | Lowestoft                              | GBLOW |
+| 曼彻斯特                           | Manchester                             | GBMNC |
+| 梅西尔                             | Methil                                 | GBMTH |
+| 米德尔斯伯勒                       | Middlesbrough                          | GBMID |
+| 米尔福德港                         | Milford Haven                          | GBMLF |
+| 蒙特罗斯                           | Montrose                               | GBMON |
+| 纽卡斯尔                           | Newcastle upone Tyne                   | GBNCL |
+| 纽黑文                             | Newhaven                               | GBNHV |
+| 纽波特                             | Newport                                | GBNPT |
+| 彼得黑德                           | Peterhead                              | GBPHD |
+| 普利茅斯                           | Plymouth                               | GBPLY |
+| 普尔                               | Poole                                  | GBPOO |
+| 塔尔伯特港                         | Port Talbot                            | GBPTB |
+| 朴次茅斯                           | Portsmouth                             | GBPME |
+| 拉姆斯盖特                         | Ramsgate                               | GBRMG |
+| 锡厄姆港                           | Seaham                                 | GBSEA |
+| 夏普内斯                           | Sharpness                              | GBSSS |
+| 希尔内斯                           | Sheerness                              | GBSHS |
+| 肖勒姆                             | Shoreham                               | GBSHO |
+| 南安普顿                           | Southampton                            | GBSOU |
+| 森德兰                             | Sunderland                             | GBSUN |
+| 萨顿布里奇                         | Sutton Bridge                          | GBPSB |
+| 斯旺西                             | Swansea                                | GBSWA |
+| 提斯港                             | Teesport                               | GBTEE |
+| 泰晤士波特                         | Thamesport                             | GBTHP |
+| 蒂尔伯里                           | Tilbury                                | GBTIL |
+| 泰恩茅斯                           | Tynemouth                              | GBTYM |
+| 沃伦波因特                         | Warrenpoint                            | GBWPT |
+| 惠特比                             | Whitby                                 | GBWTB |
+| 威客                               | Wick                                   | GBWIC |
+|                                    |                                        |       |
+4+| 非洲
+| *埃及*                             | *EGYPT*                                | *EG*  |
+| 阿布宰你迈                         | Abu Zenimah                            | EGAZA |
+| 阿代比耶                           | Adabiya                                | EGADA |
+| 达米埃塔                           | Damietta                               | EGDAM |
+| 杜姆亚特                           | Dumyat                                 | EGDAM |
+| 亚历山大                           | El Iskandariya                         | EGALY | 曾拼写作 Alexandria
+| 苏伊士                             | El Suweis                              | EGSUZ | 曾拼写作 Suez
+| 马特鲁港                           | Marsa Matruh                           | EGMUH |
+| 塞得港                             | Port Said                              | EGPSD |
+| 拉斯加里卜                         | Ras Gharib                             | EGRAG |
+| 塞法杰                             | Safaga                                 | EGSGA |
+|                                    |                                        |       |
+| *利比亚*                           | *LIBYAN ARAB JAMAHIRIYA*               | *LY*  |
+| 胡姆斯                             | Al Khums                               | LYKHO |
+| 锡德尔                             | As Sidr                                | LYESI |
+| 班加西                             | Bingazi (Benghazi)                     | LYBEN |
+| 德尔纳                             | Darnah                                 | LYDRX |
+| 卜雷加港                           | Marsa Brega                            | LYLMQ |
+| 哈里盖港                           | Marsa el Hariga                        | LYMHR |
+| 米苏拉塔                           | Misurata                               | LYMRA |
+| 拉斯拉努夫                         | Ras Lanuf                              | LYRLA |
+| 图卜鲁格                           | Tobruk                                 | LYTOB |
+| 的黎波里                           | Tripoli                                | LYTIP |
+| 祖埃提纳                           | Zueitina                               | LYZUE |
+|                                    |                                        |       |
+| *突尼斯*                           | *TUNISIA*                              | *TN*  |
+| 比塞大                             | Bizerte                                | TNBIZ |
+| 加贝斯                             | Gabes                                  | TNGAE |
+| 拉斯基拉                           | La Skhirra                             | TNLSK |
+| 拉德斯                             | Rades                                  | TNRDS |
+| 斯法克斯                           | Sfax                                   | TNSFA |
+| 苏塞                               | Sousse                                 | TNSUS |
+| 突尼斯                             | Tunis                                  | TNTUN |
+|                                    |                                        |       |
+| *阿尔及利亚*                       | *ALGERIA*                              | *DZ*  |
+| 阿尔及尔                           | Alger (Algiers)                        | DZALG |
+| 安纳巴                             | Annaba                                 | DZAAE |
+| 阿尔泽                             | Arzew                                  | DZAZW |
+| 贝贾亚                             | Bejaia                                 | DZBJA |
+| 吉杰勒                             | Djidjelli (Jijel)                      | DZDJI |
+| 盖兹瓦特                           | Ghazaouet                              | DZGHZ |
+| 奥兰                               | Oran                                   | DZORN |
+| 斯基克达                           | Skikda                                 | DZSKI | 曾名“菲利普维尔”
+| 提奈斯                             | Tenes                                  | DZTEN |
+|                                    |                                        |       |
+| *摩洛哥*                           | *MOROCCO*                              | *MA*  |
+| 阿加迪尔                           | Agadir                                 | MAAGA |
+| 卡萨布兰卡                         | Casablanca                             | MACAS |
+| 盖尼特拉                           | Kenitra                                | MANNA |
+| 穆罕默迪耶                         | Mohammedia                             | MAMOH |
+| 拉巴特                             | Rabat                                  | MARBA |
+| 萨菲                               | Safi                                   | MASFI |
+| 丹吉尔                             | Tangier                                | MATNG |
+| 得土安                             | Tetouan                                | MATTU |
+|                                    |                                        |       |
+| *西撒哈拉*                         | *WESTERN SAHARA*                       | *EH*  |
+| 达赫拉                             | Ad Dakhla                              | EHVIC |
+| 欧云（阿尤恩）                     | Laayoune (El Aaiun)                    | MAEUN |
+|                                    |                                        |       |
+| *毛里塔尼亚*                       | *MAURITANIA*                           | *MR*  |
+| 努瓦迪布                           | Nouadhibou                             | MRNDB |
+| 努瓦克肖特                         | Nouakchott                             | MRNKC |
+|                                    |                                        |       |
+| *塞内加尔*                         | *SENEGAL*                              | *SN*  |
+| 达喀尔                             | Dakar                                  | SNDKR |
+| 考拉克                             | Kaolack                                | SNKLC |
+| 圣路易                             | St Louis                               | SNXLS |
+| 济金绍尔                           | Ziguinchor                             | SNZIG |
+|                                    |                                        |       |
+| *冈比亚*                           | *GAMBIA*                               | *GM*  |
+| 班珠尔                             | Banjul                                 | GMBJL |
+|                                    |                                        |       |
+| *佛得角*                           | *CAPE VERDE*                           | *CV*  |
+| 明德卢                             | Mindelo                                | CVMIN |
+| 普拉亚                             | Praia                                  | CVRAI |
+|                                    |                                        |       |
+| *几内亚比绍*                       | *GUINEE_BISSAU*                        | *GW*  |
+| 比绍                               | Bissau                                 | GWOXB |
+| 博拉多                             | Bolama                                 | GWBOL |
+| 卡谢马                             | Cacheu                                 | GWCAC |
+|                                    |                                        |       |
+| *几内亚*                           | *GUINEA*                               | *GN*  |
+| 科纳克里                           | Conakry                                | GNCKY |
+| 卡姆萨尔                           | Port-Kamsar                            | GNKMR |
+|                                    |                                        |       |
+| *塞拉利昂*                         | *SIERRA LEONE*                         | *SL*  |
+| 邦特                               | Bonthe                                 | SLBTE |
+| 弗里敦                             | Freetown                               | SLFNA |
+| 佩佩尔                             | Pepel                                  | SLPEP |
+|                                    |                                        |       |
+| *利比里亚*                         | *LIBERIA*                              | *LR*  |
+| 布坎南                             | Buchanan                               | LRUCN |
+| 帕尔马斯角                         | Cape Palmas                            | LRCPA |
+| 蒙罗维亚                           | Monrovia                               | LRMLW |
+|                                    |                                        |       |
+| *科特迪瓦*                         | *COTE D'IVOIRE*                        | *CI*  |
+| 阿比让                             | Abidjan                                | CIABJ |
+| 达布                               | Dabou                                  | CIDAB |
+| 布埃港                             | Port-Bouet                             | CIPBT |
+| 圣佩德罗                           | San-Pedro                              | CISPY |
+| 萨桑德拉                           | Sassandra                              | CIZSS |
+| 弗里迪                             | Vridi                                  | CIVRD |
+|                                    |                                        |       |
+| *加纳*                             | *GHANA*                                | *GH*  |
+| 海岸角                             | Cape Coast                             | GHCCT |
+| 塔科拉迪                           | Takoradi                               | GHTKD |
+| 特马                               | Tema                                   | GHTEM |
+| 温尼巴                             | Winneba                                | GHWEA |
+|                                    |                                        |       |
+| *多哥*                             | *TOGO*                                 | *TG*  |
+| 佩梅                               | Kpeme                                  | TGKPE |
+| 洛美                               | Lome                                   | TGLFW |
+|                                    |                                        |       |
+| *贝宁*                             | *BENIN*                                | *BJ*  |
+| 科托努                             | Cotonou                                | BJCOO |
+| 波多诺伏                           | Porto-Novo                             | BJPTN |
+|                                    |                                        |       |
+| *尼日利亚*                         | *NIGERIA*                              | *NG*  |
+| 阿帕帕                             | Apapa                                  | NGAPP |
+| 邦尼                               | Bonny                                  | NGBON |
+| 卡拉巴尔                           | Calabar                                | NGCBQ |
+| 福卡多斯                           | Forcados                               | NGFOR |
+| 拉各斯                             | Lagos                                  | NGLOS |
+| 奥内                               | Onne                                   | NGONN |
+| 奥尼                               | Oron                                   | NGORO |
+| 哈科特港                           | Port Harcourt                          | NGPHC |
+| 廷坎岛                             | Tincan                                 | NGTIN | 位于拉各斯市
+| 瓦里                               | Warri                                  | NGWAR |
+|                                    |                                        |       |
+| *喀麦隆*                           | *CAMEROON*                             | *CM*  |
+| 杜阿拉                             | Douala                                 | CMDLA |
+| 克里比                             | Kribi                                  | CMKBI |
+| 蒂科                               | Tiko                                   | CMTKC |
+| 维多利亚                           | Victoria                               | CMVCC |
+|                                    |                                        |       |
+| *赤道几内亚*                       | *EQUATORIAL GUINEA*                    | *GQ*  |
+| 巴塔                               | Bata                                   | GQBSG |
+| 马拉博                             | Malabo                                 | GQSSG |
+|                                    |                                        |       |
+| *圣多美和普林西比*                 | *SAO TOME AND PRINCIPE*                | *ST*  |
+| 圣多美                             | Sao Tome Island                        | STTMS |
+|                                    |                                        |       |
+| *加蓬*                             | *GABON*                                | *GA*  |
+| 洛佩斯角                           | Cap Lopez                              | GACLZ |
+| 利伯维尔                           | Libreville                             | GALBV |
+| 奥文多                             | Owendo                                 | GAOWE |
+| 让蒂尔港                           | Port Gentil                            | GAPOG |
+|                                    |                                        |       |
+| *刚果*                             | *CONGO*                                | *CG*  |
+| 杰诺港                             | Djeno Terminal                         | CGDJE |
+| 黑角                               | Pointe Noire                           | CGPNR |
+|                                    |                                        |       |
+| *民主刚果*                         | *THE DEMOCRATIC REPUBLIC OF THE CONGO* | *CD*  |
+| 巴纳纳                             | Banana                                 | CDBNW |
+| 博马                               | Boma                                   | CDBOA |
+| 马塔迪                             | Matadi                                 | CDMAT |
+|                                    |                                        |       |
+| *圣赫勒拿*                         | *SAINT HELENA*                         | *SH*  |
+| 乔治敦                             | Georgetown                             | SHASI |
+| 詹姆斯敦                           | Jamestown                              | SHSHN |
+|                                    |                                        |       |
+| *安哥拉*                           | *ANGOLA*                               | *AO*  |
+| 本格拉                             | Benguela                               | AOBUG |
+| 卡宾达                             | Cabinda                                | AOCAB |
+| 洛比托                             | Lobito                                 | AOLOB |
+| 罗安达                             | Luanda                                 | AOLAD |
+| 纳米贝                             | Namibe                                 | AOMSZ |
+| 亚历山大港                         | Proto Alexandre (Tombua)               | AOPLE |
+| 安博因港                           | Porto Amboim                           | AOPBN |
+| 松贝                               | Sumbe (Nove Redondo)                   | AONDD | 曾名“新里东社”
+|                                    |                                        |       |
+| *纳米比亚*                         | *NAMIBIA*                              | *NA*  |
+| 吕德里茨                           | Luderitz                               | NALUD |
+| 鲸湾港                             | Walvis Bay                             | NAWVB | 曾译“沃尔维斯港”
+|                                    |                                        |       |
+| *南非*                             | *SOUTH AFRICA*                         | *ZA*  |
+| 开普敦                             | Cape Town                              | ZACPT |
+| 德班                               | Durban                                 | ZADUR |
+| 东伦敦                             | East London                            | ZAELS |
+| 莫塞尔贝                           | Mossel Bay                             | ZAMZY |
+| 伊丽莎白港                         | Port Elizabeth                         | ZAPLZ |
+| 理查兹贝                           | Richards Bay                           | ZARCB |
+| 萨尔达尼亚湾                       | Saldanha Bay                           | ZASDB |
+|                                    |                                        |       |
+| *莫桑比克*                         | *MOZAMBIQUE*                           | *MZ*  |
+| 贝拉                               | Beira                                  | MZBEW |
+| 伊你扬巴内                         | Inhambane                              | MZINH |
+| 马普托                             | Maputo                                 | MZMPM |
+| 莫桑比克                           | Mocambique                             | MZMZQ |
+| 纳卡拉                             | Nacala                                 | MZMNC |
+| 彭巴                               | Pemba                                  | MZPOL |
+|                                    |                                        |       |
+| *马达加斯加*                       | *MADAGASCAR*                           | *MG*  |
+| 安齐拉纳纳                         | Antsiranana (Diego-Suarez)             | MGDIE | 曾名“迭戈苏亚雷斯”
+| 法拉凡加纳                         | Farafangana                            | MGRVA |
+| 多凡堡                             | Fort Dauphin (Toalagnaro)              | MGFTU |
+| 马任加                             | Majunga (Mahajanga)                    | MGMJN |
+| 马纳卡拉                           | Manakara                               | MGWVK |
+| 马南扎里                           | Mananjary                              | MGMNJ |
+| 穆龙贝                             | Morombe                                | MGMXM |
+| 穆龙达瓦                           | Morondava                              | MGMOQ |
+| 塔马塔夫                           | Tamatave (Toamasina)                   | MGTMM | 又名“图阿马西纳斯”
+| 图莱亚尔                           | Tulear (Toliara)                       | MGTLE |
+|                                    |                                        |       |
+| *毛里求斯*                         | *MAURITIUS*                            | *MU*  |
+| 路易港                             | Port Louis                             | MUPLU |
+| *留尼汪*                           | *REUNION*                              | *RE*  |
+| 勒波尔                             | Le Port                                | RELPT |
+| 加勒茨角港                         | Port de pointe des Galets              | REPDG |
+| 留尼汪港                           | Reunion Port                           | REREU |
+|                                    |                                        |       |
+| *马约特*                           | *MAYOTTE*                              | *YT*  |
+| 藻德济                             | Dzaoudzi                               | YTDZA |
+|                                    |                                        |       |
+| *科摩罗*                           | *COMOROS*                              | *KM*  |
+| 莫罗尼                             | Moroni                                 | KMYVA |
+|                                    |                                        |       |
+| *塞舌尔*                           | *SEYCHELLES*                           | *SC*  |
+| 维多利亚港                         | Port Victoria                          | SCPOV |
+|                                    |                                        |       |
+| *坦桑尼亚*                         | *TANZANIA*                             | *TZ*  |
+| 达累斯萨拉姆                       | Dar es Salaam                          | TZDAR |
+| 林迪                               | Lindi                                  | TZLDI |
+| 姆特瓦拉                           | Mtwara                                 | TZMYW |
+| 坦噶                               | Tanga                                  | TZTGT |
+| 桑给巴尔岛                         | Zanzibar                               | TZZNZ |
+|                                    |                                        |       |
+| *肯尼亚*                           | *KENYA*                                | *KE*  |
+| 拉穆                               | Lamu                                   | KELAU |
+| 马林迪                             | Malindi                                | KEMYD |
+| 蒙巴萨                             | Mombasa                                | KEMBA |
+|                                    |                                        |       |
+| *索马里*                           | *SOMALIA*                              | *SO*  |
+| 柏培拉                             | Berbera                                | SOBBO |
+| 基斯马尤                           | Kismayu                                | SOKMU |
+| 摩加迪沙                           | Mogadishu                              | SOMGQ |
+|                                    |                                        |       |
+| *吉布提*                           | *DJIBOUTI*                             | *DJ*  |
+| 吉布提                             | Djibouti                               | DJJIB |
+|                                    |                                        |       |
+| *厄立特里亚*                       | *ERITREA*                              | *ER*  |
+| 阿萨布                             | Assab                                  | ERASA |
+| 马萨瓦                             | Massawa (Mitsiwa)                      | ERMSW |
+|                                    |                                        |       |
+| *苏丹*                             | *SUDAN*                                | *SD*  |
+| 苏丹港                             | Port Sudan                             | SDPZU |
+| 萨瓦金                             | Sawakin                                | SDSSD |
+|                                    |                                        |       |
+4+| 美洲
+| *格陵兰*                           | *GREENLAND*                            | *GL*  |
+| 奥希奥特                           | Aasiaat (Egedesminde)                  | GLJEG | 又名“埃格瑟斯明讷”
+| 伊卢利萨特                         | Ilulissat (Jakobshavn)                 | GLJAV |
+| 马尼措克                           | Maniitsoq (Sukkertoppen)               | GLJSU | 又名“苏克托彭”
+| 纳诺塔利克                         | Nanortalik                             | GLJNN |
+| 纳萨尔苏瓦克                       | Narsarsuaq                             | GLUAK |
+| 努克                               | Nuuk (Godthaab)                        | GLGOH | 又名“戈特霍布”
+| 卡科尔托克                         | Qaqortoq (Julianehaab)                 | GLJJU | 又名“尤利安娜霍布”
+| 卡西江古伊特                       | Qasigiannguit (Christianshaab)         | GLJCH |
+| 锡西米尤特                         | Sisimiut (Holsteinsborg)               | GLJHS | 又名“荷尔斯泰因斯堡”
+|                                    |                                        |       |
+| *加拿大*                           | *CANADA*                               | *CA*  |
+| 阿真舍                             | Argentia                               | CANWP |
+| 贝康库尔                           | Becancour                              | CABEC |
+| 夏洛特敦                           | Charlottetown                          | CACHA |
+| 丘吉尔                             | Churchill                              | CACHV |
+| 科纳布鲁克                         | Corner Brook                           | CACBK |
+| 戈尔德里弗                         | Gold River                             | CAGOR |
+| 古斯贝                             | Goose Bay                              | CAGOO |
+| 哈利法克斯                         | Halifax                                | CAHAL |
+| 哈密尔顿                           | Hamilton                               | CAHAM |
+| 基蒂马特                           | Kitimat                                | CAKTM |
+| 蒙特利尔                           | Montreal                               | CAMTR |
+| 纳奈莫                             | Nanaimo                                | CANNO |
+| 艾伯尼港                           | Port Alberni                           | CAPAB |
+| 科尔本港                           | Port Colborne                          | CAPCO |
+| 艾尔弗雷德港                       | Port-Alfred                            | CAPAF |
+| 卡捷港                             | Port-Cartier                           | CAPCA |
+| 鲍威尔                             | Powell River                           | CAPOW |
+| 鲁珀特港                           | Prince Rupert                          | CAPRR |
+| 魁北克                             | Quebec                                 | CAQUE |
+| 萨尔尼亚                           | Sarnia                                 | CASNI |
+| 苏圣马丽                           | Sault Ste Marie                        | CASSM |
+| 七岛                               | Sept-Iles                              | CASEI |
+| 圣约翰                             | St John                                | CASJB |
+| 圣约翰斯                           | St John's                              | CASJF |
+| 悉尼                               | Sydney                                 | CASYD |
+| 塔西斯                             | Tahsis                                 | CAPTA |
+| 三河城                             | Three Rivers (Trois-Rivieres)          | CATRR |
+| 桑德贝                             | Thunder Bay                            | CATHU |
+| 多伦多                             | Toronto                                | CATOR |
+| 图克托亚图克                       | Tuktoyaktuk                            | CATUK |
+| 温哥华                             | Vancouver                              | CAVAN |
+| 维多利亚                           | Victoria                               | CAVIC |
+| 雅茅思                             | Yarmouth                               | CAYRH |
+|                                    |                                        |       |
+| *圣皮埃尔和密克隆*                 | *SAINT PIERRE AND MIQUELON*            | *PM*  |
+| 圣皮埃尔                           | St Pierre                              | PMFSP |
+|                                    |                                        |       |
+| *百慕大*                           | *BERMUDA*                              | *BM*  |
+| 哈密尔顿                           | Hamilton                               | BMBDA |
+| 圣乔治                             | Saint George                           | BMSGE |
+|                                    |                                        |       |
+| *美国*                             | *UNITED STATES*                        | *US*  |
+| 亚当斯顿                           | Adamston                               | USDST |
+| 奥尔巴尼                           | Albany                                 | USALB |
+| 安克雷奇                           | Anchorage                              | USANC | 曾译“安克雷奇”
+| 阿斯托里亚                         | Astoria                                | USAST |
+| 巴尔的摩                           | Baltimore                              | USBAL |
+| 巴伯斯角                           | Barbers Point (Oahu)                   | USNAX | 位于夏威夷群岛
+| 博蒙特                             | Beaumont                               | USBPT |
+| 波士顿                             | Boston                                 | USBOS |
+| 布朗斯维尔                         | Brownsville                            | USBRO |
+| 不伦瑞克                           | Brunswick                              | USSSI |
+| 卡姆登                             | Camden                                 | USCDE |
+| 查尔斯顿                           | Charleston                             | USCHS |
+| 芝加哥                             | Chicago                                | USCHI | 密歇根湖港
+| 克利夫兰                           | Cleveland                              | USCLE | 伊利湖港
+| 科尔多瓦                           | Cordova                                | USCDV | 位于阿拉斯加
+| 科珀斯克里斯蒂                     | Corpus Christi                         | USCRP |
+| 底特律                             | Detroit                                | USDET | 伊利湖港
+| 德卢斯                             | Duluth                                 | USDLH | 苏必利尔湖港
+| 荷兰港                             | Dutch Harbor                           | USDUT |
+| 伊利                               | Erie                                   | USERI | 伊利湖港
+| 皮尔斯堡                           | Fort Pierce                            | USFPR |
+| 加尔维斯顿                         | Galveston                              | USGLS |
+| 格尔夫波特                         | Gulfport                               | USGPT |
+| 希洛                               | Hilo                                   | USITO | 位于夏威夷群岛
+| 火奴鲁鲁                           | Honolulu                               | USHNL | 位于夏威夷群岛
+| 休斯敦                             | Houston                                | USHOU |
+| 杰克逊维尔                         | Jacksonville                           | USJAX |
+| 简斯维尔                           | Janesville                             | USJVL |
+| 基诺沙                             | Kenosha                                | USENW | 密歇根湖港
+| 莱克查尔斯                         | Lake Charles                           | USLCH |
+| 长滩                               | Long Beach                             | USLGB |
+| 洛杉矶                             | Los Angeles                            | USLAX |
+| 孟菲斯                             | Memphis                                | USMEM |
+| 迈阿密                             | Miami                                  | USMIA |
+| 密尔沃基                           | Milwaukee                              | USMKE | 密歇根湖港
+| 莫比尔                             | Mobile                                 | USMOB |
+| 新贝德福德                         | New Bedford                            | USNBD |
+| 纽黑文                             | New Haven                              | USHVN |
+| 新奥尔良                           | New Orleans                            | USMSY |
+| 纽约                               | New York                               | USNYC |
+| 诺姆                               | Nome                                   | USOME | 位于阿拉斯加
+| 诺福克                             | Norfolk                                | USORF |
+| 奥克兰                             | Oakland                                | USOAK |
+| 奥林匹亚                           | Olympia                                | USOLM |
+| 巴拿马城                           | Panama City                            | USPFN |
+| 彭科萨拉                           | Pensacola                              | USPNS |
+| 费城                               | Philadelphia                           | USPHL |
+| 怀尼米港                           | Port Hueneme                           | USNTD |
+| 波特兰                             | Portland                               | USPWM |
+| 波特兰                             | Portland                               | USPDX |
+| 朴次茅斯                           | Portsmouth                             | USPSM |
+| 普罗维登斯                         | Providence                             | USPVD |
+| 里士满                             | Richmond                               | USRIC |
+| 萨克拉门托                         | Sacramento                             | USSAC |
+| 圣迭戈                             | San Diego                              | USSAN |
+| 圣弗朗西斯科                       | San Francisco                          | USSFO | 又名“旧金山”
+| 萨凡纳                             | Savannah                               | USSAV |
+| 西雅图                             | Seattle                                | USSEA |
+| 苏厄德                             | Seward                                 | USSEW | 位于阿拉斯加
+| 斯卡圭                             | Skagway                                | USSGY |
+| 斯托克顿                           | Stockton                               | USSCK |
+| 塔科马                             | Tacoma                                 | USTIW |
+| 坦帕                               | Tampa                                  | USTPA |
+| 德克萨斯城                         | Texas City                             | USTXT |
+| 托莱多                             | Toledo                                 | USTOL | 伊利湖港
+| 瓦尔迪兹                           | Valdez                                 | USVDZ | 位于阿拉斯加
+| 威尔明顿                           | Wilmington                             | USWTN |
+| 威尔明顿                           | Wilmington                             | USILG |
+|                                    |                                        |       |
+| *墨西哥*                           | *MEXICO*                               | *MX*  |
+| 阿卡普尔科                         | Acapulco                               | MXACA |
+| 阿尔塔米拉                         | Altamira                               | MXATM |
+| 阿尔瓦拉多                         | Alvarado                               | MXAVD |
+| 坎佩切                             | Campeche                               | MXCPE |
+| 夸查夸尔科斯                       | Coatzacoalcos                          | MXCOA |
+| 恩塞纳达                           | Ensenada                               | MXESE |
+| 瓜伊马斯                           | Guaymas                                | MXGYM |
+| 拉萨罗卡德纳斯                     | Lazaro Cardenas                        | MXLZC |
+| 曼萨尼约                           | Manzanillo                             | MXZLO | 又译“曼萨尼略”
+| 马萨特兰                           | Mazatlan                               | MXMZT |
+| 米纳蒂特兰                         | Minatitlan                             | MXMTT |
+| 普罗格雷索                         | Progreso                               | MXPGO |
+| 马德罗港                           | Puerto Madero                          | MXPMD |
+| 萨利纳克鲁斯                       | Salina Cruz                            | MXSCX |
+| 圣罗萨利亚                         | Santa Rosalia                          | MXSRL |
+| 坦皮科                             | Tampico                                | MXTAM |
+| 托波洛万波                         | Topolobampo                            | MXTPB |
+| 图斯潘                             | Tuxpan                                 | MXTUX |
+| 韦拉克鲁斯                         | Veracruz                               | MXVER |
+|                                    |                                        |       |
+| *伯利兹*                           | *BELIZE*                               | *BZ*  |
+| 伯利兹城                           | Belize City                            | BZBZE |
+|                                    |                                        |       |
+| *危地马拉*                         | *GUATEMALA*                            | *GT*  |
+| 巴里奥斯港                         | Puerto Barrios                         | GTPBR |
+| 克特萨尔港                         | Puerto Quetzal                         | GTPRQ | 又译“夸特扎尔港”
+| 圣托马斯德卡斯蒂利亚               | Puerto Santo Tomas de Castilla         | GTSTC |
+| 圣何塞                             | San Jose                               | GTSNJ |
+|                                    |                                        |       |
+| *萨尔瓦多*                         | *EL SALVADOR*                          | *SV*  |
+| 阿卡胡特拉                         | Acajutla                               | SVAQJ |
+| 拉利贝塔德                         | La Libertad                            | SVLLD |
+|                                    |                                        |       |
+| *洪都拉斯*                         | *HONDURAS*                             | *HN*  |
+| 卡斯蒂利亚港                       | Puerto Castilla                        | HNPCA |
+| 科尔特斯港                         | Puerto Cortes                          | HNPCR |
+| 圣洛伦索                           | San Lorenzo                            | HNSLO |
+| 特拉                               | Tela                                   | HNTEA |
+|                                    |                                        |       |
+| *尼加拉瓜*                         | *NICARAGUA*                            | *NI*  |
+| 布卢菲尔兹                         | Bluefields                             | NIBEF |
+| 科林托                             | Corinto                                | NICIO |
+| 卡贝萨斯港                         | Puerto Cabezas                         | NIPUZ |
+| 南圣胡安                           | San Juan del Sur                       | NISJS |
+|                                    |                                        |       |
+| *哥斯达黎加*                       | *COSTA RICA*                           | *CR*  |
+| 卡尔德拉                           | Caldera                                | CRCAL |
+| 戈尔菲托                           | Colfito                                | CRGLF |
+| 利蒙港                             | Puerto Limon                           | CRLIO |
+| 彭塔雷纳斯                         | Puntarenas                             | CRPAS |
+|                                    |                                        |       |
+| *巴拿马*                           | *PANAMA*                               | *PA*  |
+| 阿尔米兰特                         | Almirante                              | PAPAM |
+| 巴尔博亚                           | Balboa                                 | PABLB |
+| 科隆                               | Colon                                  | PAONX |
+| 克里斯托瓦尔                       | Cristobal                              | PACTB |
+| 拉斯米纳斯                         | Las Minas                              | PAMNP |
+| 曼萨尼约                           | Manzanillo                             | PAMIT |
+| 巴拿马城                           | Panama, Ciudad de                      | PAPTY |
+|                                    |                                        |       |
+| *巴哈马*                           | *BAHAMAS*                              | *BS*  |
+| 弗里波特                           | Freeport                               | BSFPO |
+| 拿骚                               | Nassau                                 | BSNAS |
+|                                    |                                        |       |
+| *古巴*                             | *CUBA*                                 | *CU*  |
+| 安蒂亚                             | Antilla                                | CUANT |
+| 凯巴连                             | Caibarien                              | CUCAI |
+| 卡德纳斯                           | Cardenas                               | CUCAR |
+| 西恩富戈斯                         | Cienfuegos                             | CUCFG |
+| 哈瓦那                             | La Habana                              | CUHAV |
+| 曼萨尼略                           | Manzanillo                             | CUMZO |
+| 马坦萨斯                           | Matanzas                               | CUQMA |
+| 尼卡罗                             | Nicaro                                 | CUICR |
+| 南圣克鲁斯                         | Santa Cruz del Sur                     | CUSCS |
+| 圣地亚哥                           | Santiago de Cuba                       | CUSCU |
+|                                    |                                        |       |
+| *开曼群岛*                         | *CAYMAN ISLANDS*                       | *KY*  |
+| 乔治敦                             | Georgetown                             | KYGEC |
+|                                    |                                        |       |
+| *牙买加*                           | *JAMAICA*                              | *JM*  |
+| 金斯敦                             | Kingston                               | JMKIN |
+| 蒙特哥贝                           | Montego Bay                            | JMMBJ |
+| 奥乔里奥斯                         | Ocho Rios                              | JMOCJ |
+| 安东尼奥港                         | Port Antonio                           | JMPOT |
+|                                    |                                        |       |
+| *海地*                             | *HAITI*                                | *HT*  |
+| 海地角                             | Cap-Haitien                            | HTCAP |
+| 戈纳伊夫                           | Gonaives                               | HTGVS |
+| 莱凯                               | Les Cayes                              | HTACA |
+| 太子港                             | Port-au-Prince                         | HTPAP |
+|                                    |                                        |       |
+| *多米尼加共和国*                   | *DOMINICAN REPUBLIC*                   | *DO*  |
+| 巴拉奥纳                           | Barahona                               | DOBRX |
+| 博卡奇卡                           | Boca Chica                             | DOBCC |
+| 拉罗马纳                           | La Romana                              | DOLRM |
+| 里奥艾纳                           | Rio Haina                              | DOHAI | 曾译“海纳”
+| 普拉塔港                           | Puerto Plata                           | DOPOP |
+| 圣佩德罗德马科里斯                 | San Pedro de Macoris                   | DOSPM |
+| 圣多明各                           | Santo Domingo                          | DOSDQ |
+|                                    |                                        |       |
+| *特克斯和凯科斯群岛*               | *TURKS AND CAICOS ISLANDS*             | *TC*  |
+| 大特克                             | Grand Turk Island                      | TCGDT |
+|                                    |                                        |       |
+| *波多黎各*                         | *PUERTO RICO*                          | *PR*  |
+| 拉斯马雷亚斯                       | Las Mareas (Guayama)                   | PRLAM | 又名“瓜亚马”
+| 马亚圭斯                           | Mayaguez                               | PRMAZ |
+| 蓬塞                               | Ponce                                  | PRPSE |
+| 圣胡安                             | San Juan                               | PRSJU |
+|                                    |                                        |       |
+| *美属维尔京群岛*                   | *UNITED STATES VIRGIN ISLANDS*         | *VI*  |
+| 夏洛特阿马利亚                     | Charlotte Amalie                       | VICHA | 位于圣托马斯岛
+| 克里斯琴斯特德                     | Christiansted                          | VICTD |
+| 弗雷德里克斯特德                   | Frederiksted                           | VIFRD |
+|                                    |                                        |       |
+| *英属维尔京群岛*                   | *BRITISH VIRGIN ISLANDS*               | *VG*  |
+| 罗德城                             | Road Town                              | VGRAD | 位于托尔托拉岛
+| 托托拉                             | Tortola                                | VGTOV |
+|                                    |                                        |       |
+| *安圭拉*                           | *ANGUILLA*                             | *AI*  |
+| 路德湾                             | The Road                               | AIROA |
+|                                    |                                        |       |
+| *圣基茨和尼维斯*                   | *SAINT KITTS AND NEVIS*                | *KN*  |
+| 巴斯特尔                           | Basseterre                             | KNBAS |
+|                                    |                                        |       |
+| *安提瓜和巴布达*                   | *ANTIGUA AND BARBUDA*                  | *AG*  |
+| 圣约翰斯                           | St John's                              | AGSJO |
+|                                    |                                        |       |
+| *蒙特塞拉特*                       | *MONTSERRAT*                           | *MS*  |
+| 普利茅斯                           | Plymouth                               | MSPLY |
+|                                    |                                        |       |
+| *瓜德罗普*                         | *GUADELOUPE*                           | *GP*  |
+| 巴斯特尔                           | Basse-Terre                            | GPBBR |
+| 皮特尔角城                         | Pointe-a-Pitre                         | GPPTP |
+|                                    |                                        |       |
+| *多米尼克*                         | *DOMINICA*                             | *DM*  |
+| 罗索                               | Roseau                                 | DMRSU |
+|                                    |                                        |       |
+| *马提尼克*                         | *MARTINIQUE*                           | *MQ*  |
+| 法兰西堡                           | Fort-de-France                         | MQFDF |
+|                                    |                                        |       |
+| *圣卢西亚*                         | *SAINT LUCIA*                          | *LC*  |
+| 卡斯特里                           | Castries                               | LCCAS |
+|                                    |                                        |       |
+| *巴巴多斯*                         | *BARBADOS*                             | *BB*  |
+| 布里奇敦                           | Bridgetown                             | BBBGI |
+|                                    |                                        |       |
+| *圣文森特和格林纳丁斯*             | *SAINT VINCENT AND THE GRENADINES*     | *VC*  |
+| 金斯敦                             | Kingstown                              | VCKTN |
+|                                    |                                        |       |
+| *格林纳达*                         | *GRENADA*                              | *GD*  |
+| 圣乔治                             | Saint George's                         | GDSTG |
+| *特立尼达和多巴哥*                 | *TRINIDAD AND TOBAGO*                  | *TT*  |
+| 查瓜拉马斯                         | Chaguaramas                            | TTCHA |
+| 利萨斯角                           | Point Lisas                            | TTPTS |
+| 西班牙港                           | Port-of-Spain                          | TTPOS |
+|                                    |                                        |       |
+| *库拉索*                           | *CURASAO*                              | *CW*  |
+| 威廉斯塔德                         | Willemstad                             | CWWIL |
+|                                    |                                        |       |
+| *圣马丁岛（荷属部分）*             | *SINT MAARTEN (DUTCH PART)*            | *SX*  |
+| 菲利普斯堡                         | Philipsburg                            | SXPHI |
+|                                    |                                        |       |
+| *博奈尔岛、圣尤斯特歇斯岛和萨巴岛* | *BONAIRE, SINT EUSTATIUS AND SABA*     | *BQ*  |
+| 克拉伦代克                         | Kralendijk                             | BQKRA |
+|                                    |                                        |       |
+| *阿鲁巴*                           | *ARUBA*                                | *AW*  |
+| 奥拉涅斯塔德                       | Oranjestad                             | AWORJ |
+| 圣尼古拉斯湾                       | Sint Nicolaas                          | AWSNL |
+|                                    |                                        |       |
+| *法属圭亚那*                       | *FRENCH GUIANA*                        | *GF*  |
+| 卡宴                               | Cayenne                                | GFCAY |
+| 库鲁                               | Kourou                                 | GFQKR |
+|                                    |                                        |       |
+| *苏里南*                           | *SURINAME*                             | *SR*  |
+| 蒙戈                               | Moengo                                 | SRMOJ |
+| 帕拉马里博                         | Paramaribo                             | SRPBM |
+| 帕拉南                             | Paranam                                | SRPRM |
+|                                    |                                        |       |
+| *圭亚那*                           | *GUYANA*                               | *GY*  |
+| 乔治敦                             | Georgetown                             | GYGEO |
+| 新阿姆斯特丹                       | New Amsterdam                          | GYNAM |
+|                                    |                                        |       |
+| *委内瑞拉*                         | *VENEZUELA*                            | *VE*  |
+| 阿穆艾                             | Amuay                                  | VEAMY |
+| 库马纳                             | Cumana                                 | VECUM |
+| 埃尔塔夫拉索                       | El Tablazo                             | VEETV |
+| 圭里亚                             | Guiria                                 | VEGUI |
+| 拉瓜伊拉                           | La Guaira                              | VELAG |
+| 马拉开波                           | Maracaibo                              | VEMAR |
+| 卡贝略港                           | Puerto Cabello                         | VEPBL |
+| 拉克鲁斯港                         | Puerto La Cruz                         | VEPCZ |
+| 奥尔达斯港                         | Puerto Ordaz                           | VEPZO |
+| 篷塔卡尔东                         | Punta Cardon                           | VEPCN |
+| 蓬塔-德彼德拉斯                    | Punta de Piedra                        | VEPPD |
+|                                    |                                        |       |
+| *哥伦比亚*                         | *COLOMBIA*                             | *CO*  |
+| 巴兰基利亚                         | Barranquilla                           | COBAQ |
+| 布埃纳文图拉                       | Buenaventura                           | COBUN | 曾译“布韦那文图拉”
+| 卡塔赫纳                           | Cartagena                              | COCTG |
+| 卡雷尼奥港                         | Puerto Carreno                         | COPCR |
+| 圣玛尔塔                           | Santa Marta                            | COSMR |
+| 图马科                             | Tumaco                                 | COTCO |
+| 图尔博                             | Turbo                                  | COTRB |
+|                                    |                                        |       |
+| *厄瓜多尔*                         | *ECUADOR*                              | *EC*  |
+| 卡拉克斯港                         | Bahia de Caraquez                      | ECBHA |
+| 埃斯梅拉达斯                       | Esmeraldas                             | ECESM |
+| 瓜亚基尔                           | Guayaquil                              | ECGYE |
+| 曼塔                               | Manta                                  | ECMEC |
+| 波利瓦尔港                         | Puerto Bolivar                         | ECPBO |
+| 萨利纳斯                           | Salinas                                | ECSNC |
+|                                    |                                        |       |
+| *秘鲁*                             | *PERU*                                 | *PE*  |
+| 巴约瓦尔港                         | Bayovar                                | PEPUB |
+| 卡亚俄                             | Callao                                 | PECLL |
+| 钦博塔                             | Chimbote                               | PECHM |
+| 埃腾                               | Eten                                   | PEEEN |
+| 圣马丁将军城                       | General San Martin                     | PEGSM |
+| 瓦乔                               | Huacho                                 | PEHCO |
+| 伊洛                               | Ilo                                    | PEILQ |
+| 马塔拉尼                           | Matarani                               | PEMRI |
+| 莫延多                             | Mollendo                               | PEMLQ |
+| 派塔                               | Paita                                  | PEPAI |
+| 皮斯科                             | Pisco                                  | PEPIO |
+| 萨拉韦里                           | Salaverry                              | PESVY |
+| 苏佩                               | Supe                                   | PESUP |
+| 塔拉拉                             | Talara                                 | PETYL |
+| 特鲁希略                           | Trujillo                               | PETRU |
+|                                    |                                        |       |
+| *智利*                             | *CHILE*                                | *CL*  |
+| 安托法加斯塔                       | Antofagasta                            | CLANF |
+| 阿里卡                             | Arica                                  | CLARI |
+| 卡尔德拉                           | Caldera                                | CLCLD |
+| 卡斯特罗                           | Castro                                 | CLWCA |
+| 查尼亚拉尔                         | Chanaral                               | CLCNR |
+| 科金博                             | Coquimbo                               | CLCQQ |
+| 瓦斯科                             | Huasco                                 | CLHSO |
+| 伊基克                             | Iquique                                | CLIQQ |
+| 利尔肯                             | Lirquen                                | CLLQN | 曾译“利尔奎”
+| 梅希约内斯                         | Mejillones                             | CLMJS |
+| 蒙特港                             | Puerto Montt                           | CLPMC |
+| 蓬塔阿雷纳斯                       | Punta Arenas                           | CLPUQ |
+| 奎姆什                             | Quemchi                                | CLQMC |
+| 金特罗                             | Quintero                               | CLQTV |
+| 圣安东尼奥                         | San Antonio                            | CLSAI |
+| 圣维森特                           | San Vicente                            | CLSVE |
+| 塔尔卡瓦诺                         | Talcahuano                             | CLTAL |
+| 托科皮亚                           | Tocopilla                              | CLTOQ |
+| 瓦尔迪维亚                         | Valdivia                               | CLZAL |
+| 瓦尔帕莱索                         | Valparaiso                             | CLVAP |
+|                                    |                                        |       |
+| *阿根廷*                           | *ARGENTINA*                            | *AR*  |
+| 布兰卡港                           | Bahia Blanca                           | ARBHI |
+| 布宜诺斯艾利斯                     | Buenos Aires                           | ARBUE |
+| 奥利维亚                           | Caleta Olivia                          | ARCVI |
+| 坎帕纳                             | Campana                                | ARCMP |
+| 里瓦达维亚海军准将城               | Comodoro Rivadavia                     | ARCRD |
+| 迪亚曼泰                           | Diamante                               | ARDME |
+| 拉普拉塔                           | La Plata                               | ARLPG |
+| 马德普拉塔                         | Mar del Plata                          | ARMDQ |
+| 德塞阿多港                         | Puerto Deseado                         | ARPUD |
+| 马德林港                           | Puerto Madryn                          | ARPMY |
+| 内科切阿                           | Necochea                               | ARNEC |
+| 克肯                               | Quequen                                | ARQQN |
+| 里奥加耶戈斯                       | Rio Gallegos                           | ARRGL |
+| 罗萨里奥                           | Rosario                                | ARROS |
+| 圣胡利安                           | San Julian                             | ARULA |
+| 圣尼古拉斯                         | San Nicolas de los Arroyos             | ARSNS |
+| 圣塞瓦斯蒂安                       | San Sebastian                          | ARSSN |
+| 圣克鲁斯                           | Santa Cruz                             | ARRZA |
+| 圣菲                               | Santa Fe                               | ARSFN |
+| 乌斯怀亚                           | Ushuaia                                | ARUSH |
+|                                    |                                        |       |
+| *马尔维纳斯（福克兰群岛）*         | *MALVINAS (FALKLAND ISLANDS)*          | *FK*  |
+| 斯坦利港                           | Port Stanley                           | FKPSY |
+|                                    |                                        |       |
+| *乌拉圭*                           | *URUGUAY*                              | *UY*  |
+| 蒙得维的亚                         | Montevideo                             | UYMVD |
+| 新帕尔米拉                         | Nueva Palmira                          | UYNVP |
+| 埃斯特角                           | Punta del Este                         | UYPDP |
+|                                    |                                        |       |
+| *巴拉圭*                           | *PARAGUAY*                             | *PY*  |
+| 亚松森                             | Asuncion                               | PYASU |
+|                                    |                                        |       |
+| *巴西*                             | *BRAZIL*                               | *BR*  |
+| 安格拉-杜斯雷斯                    | Angra dos Reis                         | BRADR |
+| 阿拉卡茹                           | Aracaju                                | BRAJU |
+| 贝伦                               | Belem                                  | BRBEL |
+| 卡贝德卢                           | Cabedelo                               | BRCDO |
+| 福塔莱萨                           | Fortaleza                              | BRFOR |
+| 伊列乌斯                           | Ilheus                                 | BRIOS |
+| 因比图巴                           | Imbituba                               | BRIBB |
+| 伊塔雅伊                           | Itajai                                 | BRITJ |
+| 伊塔基                             | Itaqui                                 | BRIQI |
+| 马卡帕                             | Macapa                                 | BRMCP |
+| 马塞约                             | Maceio                                 | BRMCZ |
+| 马瑙斯                             | Manaus                                 | BRMAO |
+| 纳塔尔                             | Natal                                  | BRNAT |
+| 尼泰罗伊                           | Niteroi                                | BRNTR |
+| 巴拉那瓜                           | Paranagua                              | BRPNG |
+| 佩洛塔斯                           | Pelotas                                | BRPET |
+| 阿雷格里港                         | Porto Alegre                           | BRPOA |
+| 累西腓                             | Recife                                 | BRREC |
+| 里约热内卢                         | Rio de Janeiro                         | BRRIO |
+| 里奥格兰德                         | Rio Grande                             | BRRIG |
+| 萨尔瓦多                           | Salvador                               | BRSSA |
+| 桑托斯                             | Santos                                 | BRSSZ |
+| 南圣弗朗西斯科                     | Sao Francisco do Sul                   | BRSFS |
+| 圣路易斯                           | Sao Luis                               | BRSLZ |
+| 圣塞巴斯蒂昂                       | Sao Sebastiao                          | BRSSO |
+| 特拉曼达伊                         | Tramandai                              | BRTRM |
+| 图巴朗                             | Tubarao                                | BRTUB |
+| 维多利亚                           | Vitoria                                | BRVIX |
+|                                    |                                        |       |
+4+| 大洋洲
+| *澳大利亚*                         | *AUSTRALIA*                            | *AU*  |
+| 阿德莱德                           | Adelaide                               | AUADL |
+| 奥尔巴尼                           | Albany                                 | AUALH |
+| 植物湾                             | Botany Bay                             | AUBTB |
+| 布里斯班                           | Brisbane                               | AUBNE |
+| 布鲁姆                             | Broome                                 | AUBME |
+| 班伯里                             | Bunbury                                | AUBUY |
+| 凯恩斯                             | Cairns                                 | AUCNS |
+| 丹皮尔                             | Dampier                                | AUDAM |
+| 达尔文                             | Darwin                                 | AUDRW |
+| 德文波特                           | Devonport                              | AUDPO |
+| 埃斯佩兰斯                         | Esperance                              | AUEPR |
+| 弗里曼特尔                         | Fremantle                              | AUFRE |
+| 吉朗                               | Geelong                                | AUGEX |
+| 杰拉尔顿                           | Geraldton                              | AUGET |
+| 格拉德斯通                         | Gladstone                              | AUGLT |
+| 戈夫                               | Gove                                   | AUGOV |
+| 霍巴特                             | Hobart                                 | AUHBA |
+| 克内尔                             | Kurnell                                | AUKUR |
+| 朗塞斯顿                           | Launceston                             | AULST |
+| 麦凯                               | Mackay                                 | AUMKY |
+| 墨尔本                             | Melbourne                              | AUMEL |
+| 纽卡斯尔                           | Newcastle                              | AUNTL |
+| 阿尔马港                           | Port Alma                              | AUPTL |
+| 奥古斯塔港                         | Port Augusta                           | AUPUG |
+| 黑德兰港                           | Port Hedland                           | AUPHE |
+| 拉塔港                             | Port Latta                             | AUPLA |
+| 林肯港                             | Port Lincoln                           | AUPLO |
+| 皮里港                             | Port Pirie                             | AUPPI |
+| 波特兰                             | Portland                               | AUPTJ |
+| 悉尼                               | Sydney                                 | AUSYD |
+| 汤斯维尔                           | Townsville                             | AUTSV |
+| 韦帕                               | Weipa                                  | AUWEI |
+| 怀阿拉                             | Whyalla                                | AUWYA |
+| 温德姆                             | Wyndham                                | AUWYN |
+| 扬皮桑德                           | Yampi Sound                            | AUYAM |
+|                                    |                                        |       |
+| *北马里亚纳群岛*                   | *NORTHERN MARIANA ISLANDS*             | *MP*  |
+| 塞班                               | Saipan                                 | MPSPN |
+| 提尼安岛                           | Tinian                                 | MPTIQ |
+|                                    |                                        |       |
+| *关岛*                             | *GUAM*                                 | *GU*  |
+| 阿加尼亚                           | Agana                                  | GUAGA |
+| 阿普拉                             | Apra                                   | GUAPR |
+| 关岛                               | Guam                                   | GUGUM |
+|                                    |                                        |       |
+| *密克罗尼西亚联邦*                 | *FEDERATED STATES OF MICRONESIA*       | *FM*  |
+| 丘克群岛                           | Chuuk (Truk)                           | FMTKK | 又名“特鲁克群岛”
+| 波纳佩                             | Pohnpei                                | FMPNI | 又拼写作 Ponape
+| 雅浦                               | Yap                                    | FMYAP |
+|                                    |                                        |       |
+| *帕劳*                             | *PALAU*                                | *PW*  |
+| 科罗尔                             | Koror                                  | PWROR |
+|                                    |                                        |       |
+| *巴布亚新几内亚*                   | *PAPUA NEW GUINEA*                     | *PG*  |
+| 阿洛陶                             | Alotau                                 | PGGUR |
+| 阿内瓦湾                           | Anewa Bay                              | PGANB |
+| 卡维恩                             | Kavieng                                | PGKVG |
+| 基埃塔                             | Kieta                                  | PGKIE |
+| 金贝                               | Kimbe                                  | PGKIM |
+| 莱城                               | Lae                                    | PGLAE |
+| 马当                               | Madang                                 | PGMAG |
+| 莫尔兹比港                         | Port Moresby                           | PGPOM |
+| 拉包尔                             | Rabaul                                 | PGRAB |
+| 韦瓦克                             | Wewak                                  | PGWWK | 又译“威瓦克”
+|                                    |                                        |       |
+| *所罗门群岛*                       | *SOLOMON ISLAND*                       | *SB*  |
+| 霍尼亚拉                           | Honiara                                | SBHIR |
+| 诺罗港                             | Port Noro                              | SBNOR |
+| 林吉科弗                           | Ringgi Cove                            | SBRIN |
+| 肖特兰岛                           | Shortland Harbour                      | SBSHH |
+|                                    |                                        |       |
+| *瓦努阿图*                         | *VANUATU*                              | *VU*  |
+| 维拉港                             | Port Vila / Vila                       | VUVLI |
+| 桑托                               | Santo                                  | VUSAN |
+|                                    |                                        |       |
+| *新喀里多尼亚*                     | *NEW CALEDONIA*                        | *NC*  |
+| 努美阿                             | Noumea                                 | NCNOU |
+|                                    |                                        |       |
+| *诺福克岛*                         | *NORFOLK ISLAND*                       | *NF*  |
+| 诺福克岛                           | Norfolk Island                         | NFNLK |
+|                                    |                                        |       |
+| *新西兰*                           | *NEW ZEALAND*                          | *NZ*  |
+| 奥克兰                             | Auckland                               | NZAKL |
+| 布拉夫                             | Bluff                                  | NZBLU |
+| 克赖斯特彻奇                       | Christchurch                           | NZCHC |
+| 达尼丁                             | Dunedin                                | NZDUD |
+| 格雷茅斯                           | Greymouth                              | NZGMN |
+| 吉斯珀恩                           | Gisborne                               | NZGIS |
+| 利特尔顿                           | Lyttelton                              | NZLYT |
+| 芒特芒阿努伊                       | Mount Maunganui                        | NZMMU |
+| 马斯登角                           | Marsden Point                          | NZMAP |
+| 内皮尔                             | Napier                                 | NZNPE |
+| 纳尔逊                             | Nelson                                 | NZNSN |
+| 新普利茅斯                         | New Plymouth                           | NZNPL |
+| 奥内洪加                           | Onehunga (Manukau Harbour)             | NZONE |
+| 奥普阿                             | Opua                                   | NZOPX |
+| 奥塔戈                             | Otago Harbour                          | NZORR |
+| 皮克顿                             | Picton                                 | NZPCN |
+| 查默斯港                           | Port Chalmers                          | NZPOE |
+| 塔哈罗阿                           | Taharoa                                | NZTHH |
+| 陶朗阿                             | Tauranga                               | NZTRG |
+| 蒂马鲁                             | Timaru                                 | NZTIU |
+| 韦弗利港                           | Waverley Harbour                       | NZWAV |
+| 惠灵顿                             | Wellington                             | NZWLG |
+| 韦斯特波特                         | Westport                               | NZWSZ |
+| 旺阿雷                             | Whangarei                              | NZWRE |
+| 旺阿努伊                           | Wanganui                               | NZWAG |
+|                                    |                                        |       |
+| *纽埃岛*                           | *NIUE*                                 | *NU*  |
+| 阿洛菲                             | Alofi                                  | NUALO |
+| 纽埃岛                             | Niue Island                            | NUIUE |
+|                                    |                                        |       |
+| *库克群岛*                         | *COOK ISLANDS*                         | *CK*  |
+| 阿鲁通加                           | Arutunga                               | CKARU |
+| 阿瓦鲁阿                           | Avarua                                 | CKAVA |
+| 拉罗通加岛                         | Rarotonga                              | CKRAR |
+|                                    |                                        |       |
+| *托克劳群岛*                       | *TOKELAU*                              | *TK*  |
+| 阿塔富                             | Atafu                                  | TKAFU |
+|                                    |                                        |       |
+| *美属萨摩亚*                       | *AMERICAN SAMOA*                       | *AS*  |
+| 帕果帕果                           | Pago Pago                              | ASPPG |
+|                                    |                                        |       |
+| *萨摩亚*                           | *SAMNA*                                | *WS*  |
+| 阿皮亚                             | Apia                                   | WSAPW |
+|                                    |                                        |       |
+| *汤加*                             | *TONGA*                                | *TO*  |
+| 内亚富                             | Neiafu                                 | TONEI |
+| 努库阿洛法                         | Nuku'alofa                             | TOTBU |
+|                                    |                                        |       |
+| *斐济*                             | *FIJI*                                 | *FJ*  |
+| 兰巴萨                             | Labasa (Lambasa)                       | FJLBS |
+| 劳托卡                             | Lautoka                                | FJLTK |
+| 苏瓦                               | Suva                                   | FJSUV |
+|                                    |                                        |       |
+| *瓦利斯和富图纳*                   | *WALLIS AND FUTUNA*                    | *WF*  |
+| 马塔乌图                           | Mata'utu                               | WFMAU |
+|                                    |                                        |       |
+| *图瓦卢*                           | *TUVALU*                               | *TV*  |
+| 富纳富提                           | Funafuti                               | TVFUN |
+|                                    |                                        |       |
+| *瑙鲁*                             | *NAURU*                                | *NR*  |
+| 瑙鲁岛                             | Nauru Island                           | NRINU |
+|                                    |                                        |       |
+| *基里巴斯*                         | *KIRIBATI*                             | *KI*  |
+| 塔拉瓦                             | Tarawa                                 | KITRW |
+|                                    |                                        |       |
+| *马绍尔群岛*                       | *MARSHALL ISLANDS*                     | *MH*  |
+| 塔罗阿                             | Taroa                                  | MHTAR |
+| 马朱罗                             | Majuro                                 | MHMAJ |
+|                                    |                                        |       |
+| *法属波利尼西亚*                  | *FRENCH POLYNESIA*                      | *PF*  |
+| 波拉波拉                           | Bora-Bora                              | PFBOB |
+| 帕皮提                             | Papeete                                | PFPPT |
+|                                    |                                        |       |
+| *皮特凯恩岛*                       | *PITCAIRN ISLANDS GROUP*               | *PN*  |
+| 皮特凯恩岛                         | Pitcairn Island                        | PNPCN |
